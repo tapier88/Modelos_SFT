@@ -1,0 +1,36 @@
+2026-11-11T16:20:54 DATA_VERIFIED {"rows": 70818, "candidate_windows": 18168, "candidate_ny_windows": 6565, "selected_windows": 5065, "selected_ny_windows": 2179, "eligible_days_ny": 756, "selected_days_ny": 756, "available_bar_days_ny": 932, "candidate_by_year": {"2020": 5857, "2021": 6144, "2022": 6167}, "selected_by_year": {"2020": 1635, "2021": 1716, "2022": 1714}}
+2026-11-11T16:21:01 CONTRACT_TESTS_PASSED; original weight files loaded; gradients disabled
+2026-11-11T16:21:04 PROGRESS {"state": "running", "done": 16, "total": 5065, "percent": 0.32, "elapsed_seconds": 3.3, "eta_seconds": 1037.9}
+2026-11-11T16:21:38 PROGRESS {"state": "running", "done": 176, "total": 5065, "percent": 3.47, "elapsed_seconds": 37.2, "eta_seconds": 1032.6}
+2026-11-11T16:22:14 PROGRESS {"state": "running", "done": 336, "total": 5065, "percent": 6.63, "elapsed_seconds": 72.7, "eta_seconds": 1023.4}
+2026-11-11T16:22:48 PROGRESS {"state": "running", "done": 496, "total": 5065, "percent": 9.79, "elapsed_seconds": 106.5, "eta_seconds": 980.8}
+2026-11-11T16:23:24 PROGRESS {"state": "running", "done": 656, "total": 5065, "percent": 12.95, "elapsed_seconds": 142.9, "eta_seconds": 960.7}
+2026-11-11T16:23:58 PROGRESS {"state": "running", "done": 816, "total": 5065, "percent": 16.11, "elapsed_seconds": 177.0, "eta_seconds": 921.5}
+2026-11-11T16:24:34 PROGRESS {"state": "running", "done": 976, "total": 5065, "percent": 19.27, "elapsed_seconds": 212.5, "eta_seconds": 890.5}
+2026-11-11T16:25:10 PROGRESS {"state": "running", "done": 1136, "total": 5065, "percent": 22.43, "elapsed_seconds": 248.9, "eta_seconds": 861.0}
+2026-11-11T16:25:46 PROGRESS {"state": "running", "done": 1296, "total": 5065, "percent": 25.59, "elapsed_seconds": 284.7, "eta_seconds": 827.9}
+2026-11-11T16:26:20 PROGRESS {"state": "running", "done": 1456, "total": 5065, "percent": 28.75, "elapsed_seconds": 318.7, "eta_seconds": 789.8}
+2026-11-11T16:26:55 PROGRESS {"state": "running", "done": 1616, "total": 5065, "percent": 31.91, "elapsed_seconds": 354.2, "eta_seconds": 756.1}
+2026-11-11T16:27:31 PROGRESS {"state": "running", "done": 1776, "total": 5065, "percent": 35.06, "elapsed_seconds": 390.4, "eta_seconds": 723.0}
+2026-11-11T16:28:00 PROGRESS {"state": "running", "done": 1936, "total": 5065, "percent": 38.22, "elapsed_seconds": 418.4, "eta_seconds": 676.3}
+2026-11-11T16:28:28 PROGRESS {"state": "running", "done": 2096, "total": 5065, "percent": 41.38, "elapsed_seconds": 446.8, "eta_seconds": 632.9}
+2026-11-11T16:28:56 PROGRESS {"state": "running", "done": 2256, "total": 5065, "percent": 44.54, "elapsed_seconds": 474.5, "eta_seconds": 590.9}
+2026-11-11T16:29:25 PROGRESS {"state": "running", "done": 2416, "total": 5065, "percent": 47.7, "elapsed_seconds": 503.5, "eta_seconds": 552.0}
+2026-11-11T16:29:55 PROGRESS {"state": "running", "done": 2576, "total": 5065, "percent": 50.86, "elapsed_seconds": 533.5, "eta_seconds": 515.5}
+2026-11-11T16:30:18 PROGRESS {"state": "running", "done": 2736, "total": 5065, "percent": 54.02, "elapsed_seconds": 557.3, "eta_seconds": 474.4}
+2026-11-11T16:30:42 PROGRESS {"state": "running", "done": 2896, "total": 5065, "percent": 57.18, "elapsed_seconds": 581.1, "eta_seconds": 435.2}
+2026-11-11T16:31:09 PROGRESS {"state": "running", "done": 3056, "total": 5065, "percent": 60.34, "elapsed_seconds": 608.2, "eta_seconds": 399.8}
+2026-11-11T16:31:36 PROGRESS {"state": "running", "done": 3216, "total": 5065, "percent": 63.49, "elapsed_seconds": 635.3, "eta_seconds": 365.3}
+2026-11-11T16:32:04 PROGRESS {"state": "running", "done": 3376, "total": 5065, "percent": 66.65, "elapsed_seconds": 663.4, "eta_seconds": 331.9}
+2026-11-11T16:32:33 PROGRESS {"state": "running", "done": 3536, "total": 5065, "percent": 69.81, "elapsed_seconds": 691.6, "eta_seconds": 299.1}
+2026-11-11T16:33:04 PROGRESS {"state": "running", "done": 3696, "total": 5065, "percent": 72.97, "elapsed_seconds": 722.9, "eta_seconds": 267.8}
+2026-11-11T16:33:35 PROGRESS {"state": "running", "done": 3856, "total": 5065, "percent": 76.13, "elapsed_seconds": 754.2, "eta_seconds": 236.5}
+2026-11-11T16:34:06 PROGRESS {"state": "running", "done": 4016, "total": 5065, "percent": 79.29, "elapsed_seconds": 784.9, "eta_seconds": 205.0}
+2026-11-11T16:34:41 PROGRESS {"state": "running", "done": 4176, "total": 5065, "percent": 82.45, "elapsed_seconds": 819.7, "eta_seconds": 174.5}
+2026-11-11T16:35:14 PROGRESS {"state": "running", "done": 4336, "total": 5065, "percent": 85.61, "elapsed_seconds": 853.3, "eta_seconds": 143.5}
+2026-11-11T16:35:43 PROGRESS {"state": "running", "done": 4496, "total": 5065, "percent": 88.77, "elapsed_seconds": 881.6, "eta_seconds": 111.6}
+2026-11-11T16:36:13 PROGRESS {"state": "running", "done": 4656, "total": 5065, "percent": 91.92, "elapsed_seconds": 911.8, "eta_seconds": 80.1}
+2026-11-11T16:36:43 PROGRESS {"state": "running", "done": 4816, "total": 5065, "percent": 95.08, "elapsed_seconds": 942.0, "eta_seconds": 48.7}
+2026-11-11T16:37:12 PROGRESS {"state": "running", "done": 4976, "total": 5065, "percent": 98.24, "elapsed_seconds": 971.4, "eta_seconds": 17.4}
+2026-11-11T16:37:30 PROGRESS {"state": "running", "done": 5065, "total": 5065, "percent": 100.0, "elapsed_seconds": 988.5, "eta_seconds": 0.0}
+2026-11-11T16:37:33 COMPLETED [{"group": "ALL", "windows": 5065, "close_mae": 2.246910469800792, "persistence_close_mae": 2.0327283316880553, "mae_skill_pct": -10.536682879549941}, {"group": "NY", "windows": 2179, "close_mae": 2.943721491119959, "persistence_close_mae": 2.6613463744837103, "mae_skill_pct": -10.610235456143059}, {"group": "OTHER", "windows": 2886, "close_mae": 1.720801247536598, "persistence_close_mae": 1.5581064622314602, "mae_skill_pct": -10.441827259488567}, {"group": "2020", "windows": 1635, "close_mae": 2.6685816395797493, "persistence_close_mae": 2.421218042813455, "mae_skill_pct": -10.216494028718603}, {"group": "2020_NY", "windows": 698, "close_mae": 3.4299197623791198, "persistence_close_mae": 3.0916729942693424, "mae_skill_pct": -10.940573881414494}, {"group": "2021", "windows": 1716, "close_mae": 1.8914524573123799, "persistence_close_mae": 1.6943168706293692, "mae_skill_pct": -11.635107346229923}, {"group": "2021_NY", "windows": 738, "close_mae": 2.601950713697809, "persistence_close_mae": 2.3386852981029818, "mae_skill_pct": -11.256983391838737}, {"group": "2022", "windows": 1714, "close_mae": 2.200547334935868, "persistence_close_mae": 2.000950845974331, "mae_skill_pct": -9.975082064764408}, {"group": "2022_NY", "windows": 743, "close_mae": 2.8264407917910925, "persistence_close_mae": 2.5775723418573384, "mae_skill_pct": -9.655148990092943}]

@@ -1,0 +1,63 @@
+{
+  "protocol": "M15_BASE_GREEDY_CAUSAL_ADAPTER_V1",
+  "RUN_FULL": false,
+  "training": false,
+  "test_evaluated": false,
+  "years": [
+    2020,
+    2021,
+    2022
+  ],
+  "context": 64,
+  "horizon": 4,
+  "step_minutes": 15,
+  "batch_size": 16,
+  "selection": "greedy_chronological_nonoverlapping_targets",
+  "seed": 271828,
+  "bootstrap_reps": 2000,
+  "decoder": "audited_causal_adapter_greedy",
+  "normalization": "context_float32_std_ddof0_eps1e-5_clip5",
+  "amount": "zero_unavailable",
+  "torch": "2.9.1+cpu",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "device": "cpu",
+  "threads": 4,
+  "pipeline_sha256": "1424fb451942c7e1e1823808405f428283f9b1aacf7b34d08df7ca9edb503016",
+  "evaluator_sha256": "ec4319b17b4704ce70d5b5241f6232011eeb34418f8fc8d2616dbe552b409269",
+  "vendor_sha256": {
+    "vendor\\model\\__init__.py": "f8f856ca3fedadcaac97e196be23d1aeda1c3c9ffe8903d66d43ea3bcac6240c",
+    "vendor\\model\\kronos.py": "0a5f90282e2039c2de0771473419715c845def154896dbd0f5747837e6241032",
+    "vendor\\model\\module.py": "a07edbadc0e96804c8158c021bbc6063bb7cc43b34d7fc470d5c8ff2005a409f"
+  },
+  "model_revisions_recorded_by_pipeline": {
+    "Kronos-small": "901c26c1332695a2a8f243eb2f37243a37bea320",
+    "Kronos-Tokenizer-base": "0e0117387f39004a9016484a186a908917e22426"
+  },
+  "weight_files": {
+    "Kronos-small\\config.json": "5e0f6a605d5f81b5c9b559fe5cf716a1acb041c744e6f41bd05b097b7a685396",
+    "Kronos-small\\model.safetensors": "b082dfcbd8e8c142a725c8bbb99781802f38fec81210e13479effb32b3c3e020",
+    "Kronos-Tokenizer-base\\config.json": "2366e7ccfec76cbc19cf3c4c1b9c5d901be336ca1e83f2d2292c9bff381b77a2",
+    "Kronos-Tokenizer-base\\model.safetensors": "59d85f6af76a2c3b8240ea06cb21db4213b4eeca053f246b23e29cf832fc6bee"
+  },
+  "sources": [
+    {
+      "file": "XAUUSD_M15_BID_2020.parquet",
+      "sha256": "449e19982f7c578ba7ff88f0c1f2c0e2b4363e08ded34e9ba05f4f0f321c560b",
+      "rows": 23639,
+      "bytes": 769983
+    },
+    {
+      "file": "XAUUSD_M15_BID_2021.parquet",
+      "sha256": "d4605da5798fcbb76dda953c106cd248901003b6e68bb6b5de048e53b6ab192b",
+      "rows": 23594,
+      "bytes": 733385
+    },
+    {
+      "file": "XAUUSD_M15_BID_2022.parquet",
+      "sha256": "b2f945631fb6a78cb2bc0ca591b65865a713380d661ee1e1632ebbfa63ecc170",
+      "rows": 23585,
+      "bytes": 777349
+    }
+  ]
+}

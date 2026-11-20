@@ -1,0 +1,162 @@
+{
+  "Head_Huber_s271828": {
+    "best_step": 250,
+    "eligible": true,
+    "family": "Head_Huber",
+    "seed": 271828
+  },
+  "Head_Huber_s271829": {
+    "best_step": 200,
+    "eligible": true,
+    "family": "Head_Huber",
+    "seed": 271829
+  },
+  "Head_Huber_s271830": {
+    "best_step": 150,
+    "eligible": true,
+    "family": "Head_Huber",
+    "seed": 271830
+  },
+  "Head_Laplace_NLL_s271828": {
+    "best_step": 250,
+    "eligible": true,
+    "family": "Head_Laplace_NLL",
+    "seed": 271828
+  },
+  "Head_Laplace_NLL_s271829": {
+    "best_step": 100,
+    "eligible": true,
+    "family": "Head_Laplace_NLL",
+    "seed": 271829
+  },
+  "Head_Laplace_NLL_s271830": {
+    "best_step": 0,
+    "eligible": true,
+    "family": "Head_Laplace_NLL",
+    "seed": 271830
+  },
+  "MC_DIAG_Kronos_LoRA_M05_16_mean": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_DIAG_Kronos_LoRA_M05_16_median": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_DIAG_Kronos_LoRA_M05_32_mean": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_DIAG_Kronos_LoRA_M05_32_median": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_DIAG_Kronos_base_16_mean": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_DIAG_Kronos_base_16_median": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_DIAG_Kronos_base_32_mean": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_DIAG_Kronos_base_32_median": {
+    "eligible": false,
+    "family": "MC_diagnostic",
+    "seed": 271828
+  },
+  "MC_Kronos_LoRA_M05_T08_32_mean_s271828": {
+    "eligible": true,
+    "family": "MC_Kronos_LoRA_M05",
+    "seed": 271828,
+    "selection": "MC_seleccion_fijada.json"
+  },
+  "MC_Kronos_LoRA_M05_T08_32_mean_s271829": {
+    "eligible": true,
+    "family": "MC_Kronos_LoRA_M05",
+    "seed": 271829,
+    "selection": "MC_seleccion_fijada.json"
+  },
+  "MC_Kronos_LoRA_M05_T08_32_mean_s271830": {
+    "eligible": true,
+    "family": "MC_Kronos_LoRA_M05",
+    "seed": 271830,
+    "selection": "MC_seleccion_fijada.json"
+  },
+  "MC_Kronos_base_T06_32_mean_s271828": {
+    "eligible": true,
+    "family": "MC_Kronos_base",
+    "seed": 271828,
+    "selection": "MC_seleccion_fijada.json"
+  },
+  "MC_Kronos_base_T06_32_mean_s271829": {
+    "eligible": true,
+    "family": "MC_Kronos_base",
+    "seed": 271829,
+    "selection": "MC_seleccion_fijada.json"
+  },
+  "MC_Kronos_base_T06_32_mean_s271830": {
+    "eligible": true,
+    "family": "MC_Kronos_base",
+    "seed": 271830,
+    "selection": "MC_seleccion_fijada.json"
+  },
+  "Pilot_FF_CE_s271828": {
+    "eligible": true,
+    "family": "Pilot_FF_CE",
+    "seed": 271828,
+    "selection": "fixed step100; single-seed pilot"
+  },
+  "Pilot_QV_CE_aux_s271828": {
+    "eligible": true,
+    "family": "Pilot_QV_CE_aux",
+    "seed": 271828,
+    "selection": "fixed step100; single-seed pilot"
+  },
+  "Pilot_QV_CE_aux_s271828_continuous": {
+    "eligible": true,
+    "family": "Pilot_QV_CE_aux",
+    "seed": 271828,
+    "selection": "fixed step100; single-seed pilot"
+  },
+  "Pilot_QV_CE_s271828": {
+    "eligible": true,
+    "family": "Pilot_QV_CE",
+    "seed": 271828,
+    "selection": "fixed step100; single-seed pilot"
+  },
+  "Pilot_QV_CE_s2x2_s271828": {
+    "eligible": true,
+    "family": "Pilot_QV_CE_s2x2",
+    "seed": 271828,
+    "selection": "fixed step100; single-seed pilot"
+  },
+  "Pilot_QV_FF_CE_s271828": {
+    "eligible": true,
+    "family": "Pilot_QV_FF_CE",
+    "seed": 271828,
+    "selection": "fixed step100; single-seed pilot"
+  },
+  "Ridge_Kronos_congelado": {
+    "eligible": true,
+    "family": "Ridge_Kronos_congelado",
+    "seed": null,
+    "selection": "alpha fijo 100, sin busqueda"
+  },
+  "Ridge_contexto": {
+    "eligible": true,
+    "family": "Ridge_contexto",
+    "seed": null,
+    "selection": "alpha fijo 100, sin busqueda"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "training_status": {
+    "data_verified": true,
+    "windows_prepared": true,
+    "model_loaded": true,
+    "smoke_passed": true,
+    "full_training_done": false,
+    "test_evaluated": false,
+    "sources_unchanged": true,
+    "runtime": "Google Colab",
+    "device": "cpu",
+    "run_id": "20261109T235309Z_9e4b39",
+    "preparation": {
+      "M5": {
+        "rows": 1046748,
+        "windows": {
+          "train": 308635,
+          "validation": 102155,
+          "test": 60354
+        },
+        "segments": 7182,
+        "ny_windows": {
+          "test": 19426,
+          "train": 100081,
+          "validation": 32534
+        },
+        "context": 128,
+        "horizon": 12,
+        "last_timestamp": "2024-10-18 20:55:00+00:00"
+      },
+      "M15": {
+        "rows": 346565,
+        "windows": {
+          "train": 51606,
+          "validation": 18168,
+          "test": 10522
+        },
+        "segments": 6027,
+        "ny_windows": {
+          "test": 3661,
+          "train": 17851,
+          "validation": 6565
+        },
+        "context": 64,
+        "horizon": 4,
+        "last_timestamp": "2024-10-18 20:45:00+00:00"
+      }
+    },
+    "experiments": {
+      "M5": {
+        "tests": {
+          "loss_active_indices": [
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138
+          ],
+          "normalization_future_invariant": true,
+          "tokenizer_future_and_prefix_invariant": true,
+          "predictor_causal_eval": [
+            0,
+            0
+          ],
+          "predictor_causal_train": [
+            0,
+            0
+          ],
+          "rollout_future_invariant": true,
+          "tokenizer_frozen": true
+        },
+        "training": {
+          "steps": 3,
+          "weights_changed": true,
+          "tokenizer_unchanged": true,
+          "checkpoint_reload_identical": true,
+          "validation": {
+            "teacher_forced_loss": 2.034981369972229,
+            "rollout_close_mae": 1.3561299641927083,
+            "persistence_close_mae": 1.2236582438151042,
+            "examples": 2,
+            "split": "validation",
+            "selection": "evenly_spaced_fixed_subset",
+            "decoding": "greedy"
+          },
+          "seconds": 38.23260021209717
+        }
+      },
+      "M15": {
+        "tests": {
+          "loss_active_indices": [
+            63,
+            64,
+            65,
+            66
+          ],
+          "normalization_future_invariant": true,
+          "tokenizer_future_and_prefix_invariant": true,
+          "predictor_causal_eval": [
+            0,
+            0
+          ],
+          "predictor_causal_train": [
+            0,
+            0
+          ],
+          "rollout_future_invariant": true,
+          "tokenizer_frozen": true
+        },
+        "training": {
+          "steps": 3,
+          "weights_changed": true,
+          "tokenizer_unchanged": true,
+          "checkpoint_reload_identical": true,
+          "validation": {
+            "teacher_forced_loss": 3.3858712911605835,
+            "rollout_close_mae": 2.321136474609375,
+            "persistence_close_mae": 2.3383941650390625,
+            "examples": 2,
+            "split": "validation",
+            "selection": "evenly_spaced_fixed_subset",
+            "decoding": "greedy"
+          },
+          "seconds": 13.823224782943726
+        }
+      }
+    },
+    "pending": [
+      "Entrenamiento completo y evaluación amplia no ejecutados",
+      "30 bloques de ticks pendientes; equivalencia del ZIP remoto no certificada",
+      "Escalas y unidades de ticks; procedencia del volumen",
+      "Posible solapamiento con preentrenamiento del checkpoint"
+    ]
+  },
+  "configuration": {
+    "upstream_commit": "67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+    "model_revisions": {
+      "Kronos-small": "901c26c1332695a2a8f243eb2f37243a37bea320",
+      "Kronos-Tokenizer-base": "0e0117387f39004a9016484a186a908917e22426"
+    },
+    "windows": {
+      "M5": [
+        5,
+        128,
+        12
+      ],
+      "M15": [
+        15,
+        64,
+        4
+      ]
+    },
+    "columns": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "amount"
+    ],
+    "amount_policy": "explicit_zero",
+    "normalization": "context_only_float32_std_ddof0",
+    "epsilon": 0.00001,
+    "clip": 5,
+    "padding": "none_fixed_complete_windows",
+    "loss": "horizon_only_two_token_levels",
+    "cross_attention": "always_causal_aligned",
+    "device": "cpu",
+    "precision": "float32",
+    "environment": {
+      "torch": "2.14.1+cpu",
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "pyarrow": "23.0.0",
+      "huggingface_hub": "1.4.0",
+      "einops": "0.8.2",
+      "safetensors": "0.6.2"
+    }
+  },
+  "history_M5": [
+    {
+      "step": 1,
+      "epoch": 0,
+      "batch": 0,
+      "loss": 4.49772310256958,
+      "gradient_norm": 3.6004652976989746,
+      "seconds": 2.0291130542755127
+    },
+    {
+      "step": 2,
+      "epoch": 0,
+      "batch": 1,
+      "loss": 2.9700028896331787,
+      "gradient_norm": 2.4596803188323975,
+      "seconds": 2.6849403381347656
+    },
+    {
+      "step": 3,
+      "epoch": 0,
+      "batch": 2,
+      "loss": 3.027783155441284,
+      "gradient_norm": 4.159491539001465,
+      "seconds": 3.363727569580078
+    }
+  ],
+  "history_M15": [
+    {
+      "step": 1,
+      "epoch": 0,
+      "batch": 0,
+      "loss": 2.0155012607574463,
+      "gradient_norm": 2.921741008758545,
+      "seconds": 0.7929866313934326
+    },
+    {
+      "step": 2,
+      "epoch": 0,
+      "batch": 1,
+      "loss": 3.659545421600342,
+      "gradient_norm": 5.106997966766357,
+      "seconds": 1.3702900409698486
+    },
+    {
+      "step": 3,
+      "epoch": 0,
+      "batch": 2,
+      "loss": 1.8157837390899658,
+      "gradient_norm": 3.371596336364746,
+      "seconds": 1.8727056980133057
+    }
+  ],
+  "training_cell": "RESULTS={}\nfor tf in ['M5','M15']:\n    kp.seed_all()\n    model,tokenizer=kp.load_models(WEIGHTS,DEVICE)\n    train_ds=kp.WindowDataset(frames[tf],indices[tf],tf,'train')\n    val_ds=kp.WindowDataset(frames[tf],indices[tf],tf,'validation')\n    checks=kp.contract_tests(model,tokenizer,train_ds,DEVICE)\n    kp.write_json(OUTPUT/f'tests_{tf}.json',checks)\n    result=kp.train(model,tokenizer,train_ds,val_ds,DEVICE,OUTPUT/tf,steps=3,batch_size=1)\n    RESULTS[tf]={'tests':checks,'training':result}\n    print(tf, 'PRUEBA CORTA SUPERADA',json.dumps(result))\n    del model,tokenizer,train_ds,val_ds\n    if DEVICE.type=='cuda': torch.cuda.empty_cache()\n",
+  "notebook_modified_utc": "2026-11-10T02:02:48.490Z"
+}

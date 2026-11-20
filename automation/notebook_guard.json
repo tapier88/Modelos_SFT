@@ -1,0 +1,51 @@
+{
+  "notebook_id": "1W7zo2Q-gXoyiVu2nZNnOMJ5RXG8Hymss",
+  "title": "Kronos_SFT_verificado.ipynb",
+  "cells": [
+    {
+      "section": 1,
+      "cell_id": "91a8ed4382",
+      "sha256": "9250f0f4f7bc2c7dcf246229115337d0e391dad5c20ad7dfe84a24b825f0b08a"
+    },
+    {
+      "section": 2,
+      "cell_id": "a401cc0e76",
+      "sha256": "a0ed447340167d5a0faabc133c77b7fb570ceae93bb483c8509879fccad3cc75"
+    },
+    {
+      "section": 3,
+      "cell_id": "2996f1757a",
+      "sha256": "d5a12dfaa12778f3c15b5c27c152369364e15785577ec285faa40bf4f4f31542"
+    },
+    {
+      "section": 4,
+      "cell_id": "012e0eee30",
+      "sha256": "05b41402e737810ed20788e810793cc0d319385e2a32bed57da70e9cd9d6d609"
+    },
+    {
+      "section": 5,
+      "cell_id": "aa19065f86",
+      "sha256": "457587795b3c0154d70954149e343951fae41da6f5fa155da410e3e373d32e16"
+    },
+    {
+      "section": 6,
+      "cell_id": "115826fbfc",
+      "sha256": "f57aa0d22dd185a4d496c9819255ad16835e9e2bc754243198b2774a107b763f"
+    },
+    {
+      "section": 7,
+      "cell_id": "6097261eb4",
+      "sha256": "b5b10030484eb18d22b71c1148415165ffac31cdf9c3360d828e6de5f1d0650d"
+    },
+    {
+      "section": 8,
+      "cell_id": "63c268d733",
+      "sha256": "992c96ddba49ce6da41b97c22104fbe5300ba4d68769f43d371c61b3f779d5e2"
+    },
+    {
+      "section": 9,
+      "cell_id": "3efdb367cf",
+      "sha256": "a21d681f09f5c926e9a6bfbb946fc220b84bd13ca7cc573d2237fa53463c167a"
+    }
+  ]
+}

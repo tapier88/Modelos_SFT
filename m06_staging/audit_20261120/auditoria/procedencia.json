@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/content/drive/MyDrive/AXXEL_CAPITAL/Kronos_SFT_verificado_20261107/ejecuciones/20261112T022707Z_55c83b/kronos_pipeline.py",
+    "bytes": 21681,
+    "sha256": "1424fb451942c7e1e1823808405f428283f9b1aacf7b34d08df7ca9edb503016"
+  },
+  {
+    "path": "/content/drive/MyDrive/AXXEL_CAPITAL/Kronos_SFT_verificado_20261107/ejecuciones/20261112T022707Z_55c83b/vendor/model/kronos.py",
+    "bytes": 30133,
+    "sha256": "0a5f90282e2039c2de0771473419715c845def154896dbd0f5747837e6241032"
+  },
+  {
+    "path": "/content/drive/MyDrive/AXXEL_CAPITAL/Kronos_SFT_verificado_20261107/ejecuciones/20261112T022707Z_55c83b/vendor/model/module.py",
+    "bytes": 23426,
+    "sha256": "a07edbadc0e96804c8158c021bbc6063bb7cc43b34d7fc470d5c8ff2005a409f"
+  },
+  {
+    "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION05_LORA/20261112T130149Z_80e373/continuacion_20261113T203705Z_d2f8d8/checkpoints/seed_271828/step_1000.pt",
+    "bytes": 1989323,
+    "sha256": "f9c5d50858f1aa472961176d39b8ace76c7008edede11b8194ede035b1d62568"
+  }
+]

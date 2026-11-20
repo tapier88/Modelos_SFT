@@ -1,0 +1,17 @@
+candidate,reference,delta_MAE,CI95_low,CI95_high,sessions,bootstrap_replicates,block_sessions,interpretation
+Ridge_contexto,Persistencia,0.013896891888689424,-0.0037111605000873615,0.030517955425330638,243,2000,5,exploratorio; no corrige seleccion multiple
+Ridge_contexto,Kronos_base,-0.247993720261804,-0.3279879408449068,-0.16537704002064682,243,2000,5,exploratorio; no corrige seleccion multiple
+Ridge_Kronos_congelado,Persistencia,0.0735750313649049,0.03463238848364311,0.11370111502627692,243,2000,5,exploratorio; no corrige seleccion multiple
+Ridge_Kronos_congelado,Kronos_base,-0.18831558078558852,-0.2786351636019807,-0.09551850822344211,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Huber_s271828,Persistencia,-0.004863474162963377,-0.026662909220500436,0.016910954871336717,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Huber_s271828,Kronos_base,-0.2667540863134568,-0.3478366852828225,-0.18692282357647252,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Huber_s271829,Persistencia,-0.006767871067910272,-0.020049684117899435,0.007138917947883914,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Huber_s271829,Kronos_base,-0.2686584832184037,-0.3502263195595923,-0.18747924051088652,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Huber_s271830,Persistencia,-0.007432726575952026,-0.022115364972253828,0.007602947476142993,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Huber_s271830,Kronos_base,-0.2693233387264454,-0.3540471791763522,-0.18753151382646013,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Laplace_NLL_s271828,Persistencia,-0.0009154287996503435,-0.024500226569144648,0.022903620577148804,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Laplace_NLL_s271828,Kronos_base,-0.26280604095014376,-0.3438887372674326,-0.18136509436038697,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Laplace_NLL_s271829,Persistencia,-0.0028185525889558734,-0.015799963349147534,0.011856526187558137,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Laplace_NLL_s271829,Kronos_base,-0.2647091647394493,-0.3479939089211664,-0.1851282754110733,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Laplace_NLL_s271830,Persistencia,0.0,0.0,0.0,243,2000,5,exploratorio; no corrige seleccion multiple
+Head_Laplace_NLL_s271830,Kronos_base,-0.2618906121504934,-0.34296316772852137,-0.18234911795135275,243,2000,5,exploratorio; no corrige seleccion multiple

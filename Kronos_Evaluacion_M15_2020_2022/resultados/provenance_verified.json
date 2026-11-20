@@ -1,0 +1,13 @@
+{
+  "verified_on": "2026-11-11",
+  "matches_published_sha256": true,
+  "published_sha256": {
+    "Kronos-small/model.safetensors": "b082dfcbd8e8c142a725c8bbb99781802f38fec81210e13479effb32b3c3e020",
+    "Kronos-Tokenizer-base/model.safetensors": "59d85f6af76a2c3b8240ea06cb21db4213b4eeca053f246b23e29cf832fc6bee"
+  },
+  "sources": [
+    "https://huggingface.co/NeoQuasar/Kronos-small/blob/901c26c1332695a2a8f243eb2f37243a37bea320/model.safetensors",
+    "https://huggingface.co/NeoQuasar/Kronos-Tokenizer-base/blob/0e0117387f39004a9016484a186a908917e22426/model.safetensors"
+  ],
+  "source_manifest_drive_file_id": "1NcuWpP5Sm5V1XXZbXswK-NFu8BPg7vth"
+}

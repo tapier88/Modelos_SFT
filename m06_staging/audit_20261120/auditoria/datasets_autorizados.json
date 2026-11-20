@@ -1,0 +1,68 @@
+[
+  {
+    "year": 2010,
+    "file": "XAUUSD_M15_BID_2010.parquet",
+    "rows": 22634,
+    "sha256": "a291452c452e372f0e3833c977124b1678d29f12bc227809e8bf58da7ab50094"
+  },
+  {
+    "year": 2011,
+    "file": "XAUUSD_M15_BID_2011.parquet",
+    "rows": 23712,
+    "sha256": "020f6960eac190e34975a46d9be3efe8baf79b7c8d4434dab757cb9bb5f64f1b"
+  },
+  {
+    "year": 2012,
+    "file": "XAUUSD_M15_BID_2012.parquet",
+    "rows": 23816,
+    "sha256": "3c487ec810c1a4d61727d49ced69ded989178118b9add8d7c39a1959971a3fe5"
+  },
+  {
+    "year": 2013,
+    "file": "XAUUSD_M15_BID_2013.parquet",
+    "rows": 23024,
+    "sha256": "ad585cd242941ce425d2d477cc87f5af9e6f1e7285d3d80ca5498d0b6c731db3"
+  },
+  {
+    "year": 2014,
+    "file": "XAUUSD_M15_BID_2014.parquet",
+    "rows": 23222,
+    "sha256": "24329c75f2e9e4f015efff52ef478c57f2e2da1482ee2906ef51578fe80fc35f"
+  },
+  {
+    "year": 2015,
+    "file": "XAUUSD_M15_BID_2015.parquet",
+    "rows": 23538,
+    "sha256": "0eea89332f55b7c67d13f66373a1a110cb6b035c70aa7ef818a239e5453fd612"
+  },
+  {
+    "year": 2016,
+    "file": "XAUUSD_M15_BID_2016.parquet",
+    "rows": 23592,
+    "sha256": "6df43b59c023a823afb81c36e9095d822a32d7f5ff6d13296c05626fdb50d2d4"
+  },
+  {
+    "year": 2017,
+    "file": "XAUUSD_M15_BID_2017.parquet",
+    "rows": 23473,
+    "sha256": "9a67f283f00d223bca39667752ee6f6a3263c1768322d8f5afeee2ab56d20c2e"
+  },
+  {
+    "year": 2018,
+    "file": "XAUUSD_M15_BID_2018.parquet",
+    "rows": 23391,
+    "sha256": "76183af7c701e3413a56a5d2648c646b72699ffeb56f6b0f627976d0f9bac114"
+  },
+  {
+    "year": 2019,
+    "file": "XAUUSD_M15_BID_2019.parquet",
+    "rows": 22955,
+    "sha256": "8e700e16d6b2055412784f768534cd8da926a3169420d03e0f3d533c40589f96"
+  },
+  {
+    "year": 2020,
+    "file": "XAUUSD_M15_BID_2020.parquet",
+    "rows": 23639,
+    "sha256": "449e19982f7c578ba7ff88f0c1f2c0e2b4363e08ded34e9ba05f4f0f321c560b"
+  }
+]

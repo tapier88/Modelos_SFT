@@ -1,0 +1,8 @@
+{
+  "prediction_rows": 20260,
+  "target_times_unique": true,
+  "all_truth_matches_source": true,
+  "all_persistence_matches_source": true,
+  "all_target_times_match_source": true,
+  "aggregate_mae_recomputed": true
+}

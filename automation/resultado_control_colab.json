@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-11-09T23:15:20.998362+00:00",
+  "notebook_id": "1W7zo2Q-gXoyiVu2nZNnOMJ5RXG8Hymss",
+  "cdp_accessible": false,
+  "live_notebook_verified": false,
+  "execution_requested": false,
+  "completed_sections": [],
+  "outcome": "BLOCKED_OR_FAILED",
+  "playwright_installed": false,
+  "error": "AutomationError: No fue posible acceder a http://localhost:9222: <urlopen error [WinError 10013] Intento de acceso a un socket no permitido por sus permisos de acceso>",
+  "finished_utc": "2026-11-09T23:15:21.056134+00:00"
+}

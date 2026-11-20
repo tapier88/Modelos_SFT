@@ -1,0 +1,220 @@
+{
+  "experiment": "M06_FV_JOINT_RETURN_V1",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "created_date_Bogota": "2026-11-20",
+  "purpose": "paired head-only continuation versus joint LoRA+head, without rerunning phases I-IV",
+  "canonical_run": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571",
+  "output_subdirectory_proposed": "fase_V_joint_v1/<scientific_fingerprint>/<arm>/seed_<seed>",
+  "seeds": [
+    271828,
+    271829,
+    271830
+  ],
+  "data": {
+    "train_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "development_years": [
+      2020
+    ],
+    "train_windows": 8428,
+    "development_windows": 950,
+    "development_NY_sessions": 243,
+    "source_manifest_sha256": "a4f37d6518acd433712e404ba7a35a0800d5dacda1c87dbebba9fa9a234d1b7b",
+    "L": 56,
+    "H": 4,
+    "timeframe": "M15",
+    "anchors_NY": [
+      "08:30",
+      "09:30",
+      "10:30",
+      "11:30"
+    ],
+    "normalization": "float32 context56 only; std(ddof=0)+1e-5; clip[-5,5]",
+    "test2023_2024_access": false,
+    "evaluation2021_2022_access": false
+  },
+  "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+  "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740",
+  "pipeline_sha256": "1424fb451942c7e1e1823808405f428283f9b1aacf7b34d08df7ca9edb503016",
+  "head_initialization": {
+    "271828": {
+      "model": "Head_Huber_s271828",
+      "sha256": "e2491f96d6a45db2cc8ea4dfed063c24044e56e3af0228065f5ecf51af81b254",
+      "best_step": 250,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_III/checkpoints/fase_III/7587400db64558e6/Head_Huber_s271828_best.pt"
+    },
+    "271829": {
+      "model": "Head_Huber_s271829",
+      "sha256": "91648fafacf98c6f666e5692ab8b742a8f11da61b7321d3b2f3f6c4f9f2171aa",
+      "best_step": 200,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_III/checkpoints/fase_III/7587400db64558e6/Head_Huber_s271829_best.pt"
+    },
+    "271830": {
+      "model": "Head_Huber_s271830",
+      "sha256": "8b20807ec220bbb888a0c63650f41c69a03f49278645f90e7052acf8ad18346e",
+      "best_step": 150,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_III/checkpoints/fase_III/7587400db64558e6/Head_Huber_s271830_best.pt"
+    }
+  },
+  "reuse_M05_adapter": false,
+  "reuse_IV_adapter_for_training": false,
+  "shared_model": {
+    "base_frozen": true,
+    "tokenizer_frozen": true,
+    "feature": "decode_s1 last context token,512 dimensions,56 past candles only",
+    "head": "Linear512x64+GELU+Linear64x4",
+    "head_parameters": 33092,
+    "feature_scalers": "fixed train-only phaseIII scalers; verify SHA and feature identity",
+    "scalers_sha256": "d39212a67cafe026976b9b36b51c712229ce1cd0613a3eb24f49f3a614ac579e",
+    "return_target": "cumulative basis-point returns H1,H2,H3,H4",
+    "price_prediction": "last_close*(1+predicted_bps/10000)"
+  },
+  "arms": {
+    "control_head_only": {
+      "head_trainable": true,
+      "base_and_adapters_frozen": true,
+      "trainable_parameters": 33092
+    },
+    "joint_QV_head": {
+      "head_trainable": true,
+      "lora_targets": [
+        "transformer.0.self_attn.q_proj",
+        "transformer.0.self_attn.v_proj",
+        "transformer.1.self_attn.q_proj",
+        "transformer.1.self_attn.v_proj",
+        "transformer.2.self_attn.q_proj",
+        "transformer.2.self_attn.v_proj",
+        "transformer.3.self_attn.q_proj",
+        "transformer.3.self_attn.v_proj",
+        "transformer.4.self_attn.q_proj",
+        "transformer.4.self_attn.v_proj",
+        "transformer.5.self_attn.q_proj",
+        "transformer.5.self_attn.v_proj",
+        "transformer.6.self_attn.q_proj",
+        "transformer.6.self_attn.v_proj",
+        "transformer.7.self_attn.q_proj",
+        "transformer.7.self_attn.v_proj"
+      ],
+      "rank": 8,
+      "alpha": 16,
+      "scale": 2,
+      "dropout": 0.1,
+      "initialization": "fresh A Kaiming uniform, B zero; seed-matched phaseIII Huber head",
+      "lora_parameters": 131072,
+      "trainable_parameters": 164164,
+      "dependency_cross_attention_adapted": false
+    }
+  },
+  "loss": {
+    "type": "SmoothL1_Huber",
+    "beta": 1.0,
+    "reduction": "equal mean over batch and4 horizons",
+    "target_scaling": "return_scale per horizon from train-only phaseIII scalers, fixed",
+    "CE_weight": 0,
+    "reason": "retain phaseIII objective to isolate trainability; price-space objective is a later separately registered ablation"
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "head_lr": 0.0003,
+    "lora_lr": 0.0001,
+    "weight_decay": 0.0,
+    "gradient_clip_norm": 1.0,
+    "schedule": "constant"
+  },
+  "budget": {
+    "arms": 2,
+    "seeds": 3,
+    "runs": 6,
+    "additional_steps_each": 300,
+    "maximum_total_steps": 1800,
+    "effective_batch": 64,
+    "microbatch": 16,
+    "accumulation": 4,
+    "checkpoint_every_steps": 25,
+    "development_evaluations": "step0 for reload equivalence; fixed final step300 only",
+    "select_best_intermediate_2020": false,
+    "stop_on": "nonfinite,hash mismatch,causality violation,missing gradients,version conflict; no metric-driven extension"
+  },
+  "mode": {
+    "base": "eval but autograd enabled for joint hidden path",
+    "tokenizer": "eval no_grad",
+    "head": "train",
+    "lora_dropout": "train in joint arm only"
+  },
+  "randomness": {
+    "order": "same NumPy PCG64 training indices per seed in both arms",
+    "deterministic_algorithms": true,
+    "TF32": false,
+    "resume": "optimizer,step,Python/NumPy/torchCPU/CUDA RNG,training order/scalers/config/source hashes"
+  },
+  "evaluation": {
+    "primary": "MAE of de-normalized close prices across950x4 forecasts",
+    "secondary": [
+      "RMSE",
+      "direction accuracy excluding true flat moves",
+      "bias",
+      "magnitude MAE",
+      "NY hour/session",
+      "horizon",
+      "time per window"
+    ],
+    "references": [
+      "Persistencia",
+      "Kronos_base greedy",
+      "each original phaseIII Huber head by seed",
+      "best observed phaseIII Huber_s271830 (selection-aware)",
+      "paired head-only continuation"
+    ],
+    "bootstrap": {
+      "unit": "NY session",
+      "circular_block_sessions": 5,
+      "replicates": 10000,
+      "seed": 271828,
+      "paired": true,
+      "confirmatory_development_contrasts": 9,
+      "contrasts": "3seeds x [persistence,best storedIII,matched new control]",
+      "simultaneous_intervals": "Bonferroni percentile bounds alpha=.05/9, alongside exploratory95percent"
+    },
+    "candidate_followup_gate": "all3seeds improve point MAE against persistence,bestIII and matched control; simultaneous intervals below0; no positive deltaMAE by horizon/hour; no promotion on2020 alone",
+    "independent_holdout": false,
+    "known_bias": "2020 already reused to select phaseIII checkpoints and earlier methods; cannot undo prior exposure"
+  },
+  "deduplication": {
+    "fingerprint_fields": "model/tokenizer/source hashes,initial head hashes,targets,ranks,loss,optimizer,budget,seed,arm",
+    "exclude_from_scientific_fingerprint": [
+      "timestamps",
+      "paths",
+      "human labels"
+    ],
+    "existing_completed": "verify manifest and load predictions; skip all training",
+    "existing_partial": "verify and resume last committed step; never start from0",
+    "untracked_or_mismatched": "fail closed, preserve files, reconcile without overwrite",
+    "same_method_different_folder": "still considered duplicate"
+  },
+  "preflight_gates": [
+    "backup both notebook states if conflict",
+    "one notebook writer:Colab UI",
+    "fresh runtime and GPU/CPU memory observed",
+    "base/tokenizer/current checkpoint hashes verified",
+    "strict shape/key loading",
+    "step0 reproduces phaseIII saved predictions with fixed documented numeric tolerance",
+    "future-invariance of context representation and regression outputs",
+    "head and LoRA_B have finite nonzero gradients,LoRA_A allowed zero at first step when B=0",
+    "base/tokenizer gradients absent",
+    "fresh empty namespace restore ofcompleted phasesIII-IV tested twice",
+    "save/readback and conflict detection pass",
+    "duplicate search across candidate manifests complete"
+  ],
+  "orders_enabled": false,
+  "training_started": false
+}

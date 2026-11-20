@@ -1,0 +1,25 @@
+{
+  "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+  "complete": true,
+  "dev_windows": 950,
+  "frozen_adapters": true,
+  "frozen_transformer": true,
+  "models": [
+    "Ridge_contexto",
+    "Ridge_Kronos_congelado",
+    "Head_Huber_s271828",
+    "Head_Huber_s271829",
+    "Head_Huber_s271830",
+    "Head_Laplace_NLL_s271828",
+    "Head_Laplace_NLL_s271829",
+    "Head_Laplace_NLL_s271830"
+  ],
+  "phase": "III",
+  "seeds": [
+    271828,
+    271829,
+    271830
+  ],
+  "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740",
+  "train_windows": 8428
+}

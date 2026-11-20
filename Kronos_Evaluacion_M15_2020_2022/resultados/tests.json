@@ -1,0 +1,22 @@
+{
+  "nonoverlap_selection": true,
+  "bootstrap_constant_difference": true,
+  "loss_active_indices": [
+    63,
+    64,
+    65,
+    66
+  ],
+  "normalization_future_invariant": true,
+  "tokenizer_future_and_prefix_invariant": true,
+  "predictor_causal_eval": [
+    0.0,
+    0.0
+  ],
+  "predictor_causal_train": [
+    0.0,
+    0.0
+  ],
+  "rollout_future_invariant": true,
+  "tokenizer_frozen": true
+}

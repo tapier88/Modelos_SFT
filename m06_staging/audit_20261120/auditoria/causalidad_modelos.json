@@ -1,0 +1,42 @@
+{
+  "Kronos_base": {
+    "loss_active_indices": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "normalization_future_invariant": true,
+    "tokenizer_future_and_prefix_invariant": true,
+    "predictor_causal_eval": [
+      0.0,
+      0.0
+    ],
+    "predictor_causal_train": [
+      0.0,
+      0.0
+    ],
+    "rollout_future_invariant": true,
+    "tokenizer_frozen": true
+  },
+  "Kronos_LoRA_M05": {
+    "loss_active_indices": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "normalization_future_invariant": true,
+    "tokenizer_future_and_prefix_invariant": true,
+    "predictor_causal_eval": [
+      0.0,
+      0.0
+    ],
+    "predictor_causal_train": [
+      0.0,
+      0.0
+    ],
+    "rollout_future_invariant": true,
+    "tokenizer_frozen": true
+  }
+}

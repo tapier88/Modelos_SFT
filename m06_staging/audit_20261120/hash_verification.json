@@ -1,0 +1,187 @@
+[
+  {
+    "file": "checkpoints/Pilot_FF_CE_s271828/adapter_final.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_FF_CE_s271828/complete.json",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_FF_CE_s271828/evaluation.npz",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_FF_CE_s271828/resume.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_aux_s271828/adapter_final.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_aux_s271828/complete.json",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_aux_s271828/evaluation.npz",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_aux_s271828/resume.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s271828/adapter_final.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s271828/complete.json",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s271828/evaluation.npz",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s271828/resume.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s2x2_s271828/adapter_final.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s2x2_s271828/complete.json",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s2x2_s271828/evaluation.npz",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_CE_s2x2_s271828/resume.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_FF_CE_s271828/adapter_final.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_FF_CE_s271828/complete.json",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_FF_CE_s271828/evaluation.npz",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "checkpoints/Pilot_QV_FF_CE_s271828/resume.pt",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "configuraciones/candidatos.json",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "configuraciones/protocolo_previo.json",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "graficas/07_pilotos_LoRA.png",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_FF_CE_s271828.parquet",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_FF_CE_s271828_curves.csv",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_CE_aux_s271828.parquet",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_CE_aux_s271828_continuous.parquet",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_CE_aux_s271828_curves.csv",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_CE_s271828.parquet",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_CE_s271828_curves.csv",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_CE_s2x2_s271828.parquet",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_CE_s2x2_s271828_curves.csv",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_FF_CE_s271828.parquet",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/Pilot_QV_FF_CE_s271828_curves.csv",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/pilotos_intervalos.csv",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "metricas/pilotos_resultados_2020.csv",
+    "sha_ok": true,
+    "size_ok": true
+  },
+  {
+    "file": "phase_status.json",
+    "sha_ok": true,
+    "size_ok": true
+  }
+]

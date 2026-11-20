@@ -1,0 +1,13 @@
+candidate,reference,delta_MAE,CI95_low,CI95_high,sessions,bootstrap_replicates,block_sessions,interpretation
+Pilot_QV_CE_s271828,Persistencia,0.3392610248766447,0.23568022471735975,0.4374836285688887,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_CE_s271828,Kronos_base,0.07737041272615132,0.0070138970260258185,0.14719724604712525,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_FF_CE_s271828,Persistencia,0.3437321713096217,0.24250360048901176,0.4329984846555142,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_FF_CE_s271828,Kronos_base,0.08184155915912829,0.019167272155252806,0.14182452047975366,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_FF_CE_s271828,Persistencia,0.35103258634868423,0.250751875891978,0.4400921675099757,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_FF_CE_s271828,Kronos_base,0.0891419741981908,0.024941320604953902,0.15390687532456196,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_CE_s2x2_s271828,Persistencia,0.33948512027138156,0.23755261294473215,0.4357200324573449,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_CE_s2x2_s271828,Kronos_base,0.07759450812088815,0.009278063780822464,0.1463069837279875,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_CE_aux_s271828,Persistencia,0.34526254754317437,0.24081382954560687,0.4432170738909341,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_CE_aux_s271828,Kronos_base,0.08337193539268092,0.01626834066055962,0.15131876690218968,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_CE_aux_s271828_continuous,Persistencia,-0.0011937528219230467,-0.020720961021229382,0.01859687660312224,243,2000,5,exploratorio; no corrige seleccion multiple
+Pilot_QV_CE_aux_s271828_continuous,Kronos_base,-0.26308436497241644,-0.3430306484002834,-0.18295265172864406,243,2000,5,exploratorio; no corrige seleccion multiple

@@ -1,0 +1,97 @@
+{
+  "aux_gradient_norm": 0.0013779019936919212,
+  "base_unchanged": true,
+  "curves": [
+    {
+      "dev_CE": 3.9846909046173096,
+      "dev_MAE": 4.213315902217742,
+      "model": "Pilot_QV_CE_aux_s271828",
+      "step": 0,
+      "train_loss": null
+    },
+    {
+      "dev_CE": 3.974252939224243,
+      "dev_MAE": 4.2105255126953125,
+      "dev_windows": 124,
+      "grad_norm": 0.03304718807339668,
+      "model": "Pilot_QV_CE_aux_s271828",
+      "step": 25,
+      "train_loss": 3.6961792707443237
+    },
+    {
+      "dev_CE": 3.942446231842041,
+      "dev_MAE": 4.26732906218498,
+      "dev_windows": 124,
+      "grad_norm": 0.06051046401262283,
+      "model": "Pilot_QV_CE_aux_s271828",
+      "step": 50,
+      "train_loss": 3.7208269834518433
+    },
+    {
+      "dev_CE": 3.884260654449463,
+      "dev_MAE": 4.22293952203566,
+      "dev_windows": 124,
+      "grad_norm": 0.11481240391731262,
+      "model": "Pilot_QV_CE_aux_s271828",
+      "step": 75,
+      "train_loss": 3.984197676181793
+    },
+    {
+      "dev_CE": 3.8405137062072754,
+      "dev_MAE": 3.9053018349095394,
+      "dev_windows": 950,
+      "grad_norm": 0.08590815961360931,
+      "model": "Pilot_QV_CE_aux_s271828",
+      "step": 100,
+      "train_loss": 3.714263081550598
+    }
+  ],
+  "fixed_final_step": 100,
+  "rows": [
+    {
+      "CE": 3.8405137062072754,
+      "CE_s1": 4.355050563812256,
+      "CE_s2": 3.325977325439453,
+      "MAE": 3.9053018349095394,
+      "RMSE": 5.775275451453223,
+      "actual_nonzero": 3796,
+      "aux_gradient_norm": 0.0013779019936919212,
+      "bias": -0.1816598350123355,
+      "direction_coverage_pct": 99.97368421052632,
+      "direction_pct": 49.973656480505795,
+      "evaluation_seconds_per_window": 0.011593350847368511,
+      "magnitude_MAE": 2.739564787212171,
+      "model": "Pilot_QV_CE_aux_s271828",
+      "seconds_this_call": 61.654927271999895,
+      "seed": 271828,
+      "steps": 100,
+      "timing_scope": "greedy + diagnostic CE, plus continuous head if aux",
+      "trainable_parameters": 147456,
+      "variant": "QV_CE_aux",
+      "windows": 950
+    },
+    {
+      "CE": 3.8405137062072754,
+      "CE_s1": 4.355050563812256,
+      "CE_s2": 3.325977325439453,
+      "MAE": 3.5588455345444423,
+      "RMSE": 5.39971339060415,
+      "actual_nonzero": 3796,
+      "aux_gradient_norm": 0.0013779019936919212,
+      "bias": 0.03718746740582225,
+      "direction_coverage_pct": 100.0,
+      "direction_pct": 52.212855637513165,
+      "evaluation_seconds_per_window": 0.011593350847368511,
+      "magnitude_MAE": 3.28559927470708,
+      "model": "Pilot_QV_CE_aux_s271828_continuous",
+      "output": "frozen Huber head with adapted representations",
+      "seconds_this_call": 61.654927271999895,
+      "seed": 271828,
+      "steps": 100,
+      "timing_scope": "greedy + diagnostic CE, plus continuous head if aux",
+      "trainable_parameters": 147456,
+      "variant": "QV_CE_aux",
+      "windows": 950
+    }
+  ]
+}

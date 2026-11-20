@@ -1,0 +1,90 @@
+{
+  "purpose": "Structural coverage only. No forecasts or model selection by error.",
+  "horizon_bars": 4,
+  "rows": [
+    {
+      "context_bars": 64,
+      "context_hours": 16.0,
+      "year": 2020,
+      "eligible_windows_ny": 2095,
+      "eligible_exact_0830_decisions": 0
+    },
+    {
+      "context_bars": 64,
+      "context_hours": 16.0,
+      "year": 2021,
+      "eligible_windows_ny": 2224,
+      "eligible_exact_0830_decisions": 0
+    },
+    {
+      "context_bars": 64,
+      "context_hours": 16.0,
+      "year": 2022,
+      "eligible_windows_ny": 2246,
+      "eligible_exact_0830_decisions": 0
+    },
+    {
+      "context_bars": 58,
+      "context_hours": 14.5,
+      "year": 2020,
+      "eligible_windows_ny": 3549,
+      "eligible_exact_0830_decisions": 225
+    },
+    {
+      "context_bars": 58,
+      "context_hours": 14.5,
+      "year": 2021,
+      "eligible_windows_ny": 3751,
+      "eligible_exact_0830_decisions": 240
+    },
+    {
+      "context_bars": 58,
+      "context_hours": 14.5,
+      "year": 2022,
+      "eligible_windows_ny": 3782,
+      "eligible_exact_0830_decisions": 236
+    },
+    {
+      "context_bars": 56,
+      "context_hours": 14.0,
+      "year": 2020,
+      "eligible_windows_ny": 3583,
+      "eligible_exact_0830_decisions": 229
+    },
+    {
+      "context_bars": 56,
+      "context_hours": 14.0,
+      "year": 2021,
+      "eligible_windows_ny": 3778,
+      "eligible_exact_0830_decisions": 247
+    },
+    {
+      "context_bars": 56,
+      "context_hours": 14.0,
+      "year": 2022,
+      "eligible_windows_ny": 3817,
+      "eligible_exact_0830_decisions": 248
+    },
+    {
+      "context_bars": 48,
+      "context_hours": 12.0,
+      "year": 2020,
+      "eligible_windows_ny": 3654,
+      "eligible_exact_0830_decisions": 241
+    },
+    {
+      "context_bars": 48,
+      "context_hours": 12.0,
+      "year": 2021,
+      "eligible_windows_ny": 3806,
+      "eligible_exact_0830_decisions": 255
+    },
+    {
+      "context_bars": 48,
+      "context_hours": 12.0,
+      "year": 2022,
+      "eligible_windows_ny": 3832,
+      "eligible_exact_0830_decisions": 256
+    }
+  ]
+}

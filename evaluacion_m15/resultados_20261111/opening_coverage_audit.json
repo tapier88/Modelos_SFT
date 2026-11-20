@@ -1,0 +1,19 @@
+{
+  "eligible_ny_windows": 6565,
+  "earliest_ny_decision": "10:00",
+  "latest_ny_decision": "12:00",
+  "eligible_0830_to_1000_exclusive": 0,
+  "first_window_context_start_ny": "2020-01-02 18:00:00-05:00",
+  "first_window_decision_ny": "2020-01-03 10:00:00-05:00",
+  "gaps_over_15min": 885,
+  "gap_duration_counts_minutes": {
+    "15.0": 69932,
+    "75.0": 587,
+    "2955.0": 137,
+    "30.0": 96,
+    "45.0": 14,
+    "90.0": 13,
+    "315.0": 10,
+    "240.0": 6
+  }
+}

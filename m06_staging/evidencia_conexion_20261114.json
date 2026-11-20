@@ -1,0 +1,47 @@
+{
+  "mission": "AXXEL CAPITAL M06",
+  "date_bogota": "2026-11-14",
+  "notebook_url": "https://colab.research.google.com/drive/1W7zo2Q-gXoyiVu2nZNnOMJ5RXG8Hymss",
+  "status": "M06_0_STARTED_WAITING_FOR_GOOGLE_DRIVE_AUTHENTICATION",
+  "direct_python": {
+    "version": "3.13.5",
+    "playwright_installed": true,
+    "http_probe": "WinError 10013: socket access denied",
+    "connect_over_cdp_attempt": "Python Playwright initialization did not complete; interrupted after bounded observation; no successful connection claimed"
+  },
+  "authorized_local_connector": {
+    "cdp": "http://127.0.0.1:9222",
+    "target_id": "849BB1163F4C36B903D74F4775670F3E",
+    "browser": "Chrome/157.0.8103.80",
+    "passive_read": true,
+    "active_playwright_control": true,
+    "working_environment": {
+      "locale": "es-CO",
+      "timezone": "America/Bogota",
+      "service_workers": "allow"
+    },
+    "control_evidence": "ev_4c2282791d296638e0b19e5a900571a4b0aa66b7c212a2ac87a83066120d9d61",
+    "run_cell_0_evidence": "ev_32ac767b4b1215d47bfec5cda4c9e31f8ec648aab725a2e96c33ef5c974aebf6",
+    "drive_mount_dialog_evidence": "ev_0af6ef9bc4080f5cb86b6f2d36f86d1652507ee5ab4813c7b8eacaf9e8df6258"
+  },
+  "runtime_observed_in_ui": {
+    "connected": true,
+    "gpu_label": "T4 (Python 3)",
+    "torch_hardware_report_verified": false
+  },
+  "execution": {
+    "m06_0": "started; pending Google Drive sign-in/consent",
+    "m06_1": "not_started",
+    "predictive_experiments": "not_started",
+    "run_all": false
+  },
+  "blocker": {
+    "page_origin": "https://accounts.google.com",
+    "message": "Vas a volver a iniciar sesión en Google Drive for desktop",
+    "required_user_action": "Completar la autenticación y autorización de Drive en la ventana de Google"
+  },
+  "research_only": true,
+  "orders_enabled": false,
+  "reserved_datasets_opened": false,
+  "historical_cells_modified": false
+}

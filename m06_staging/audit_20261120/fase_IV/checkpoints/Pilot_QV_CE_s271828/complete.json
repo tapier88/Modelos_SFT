@@ -1,0 +1,74 @@
+{
+  "aux_gradient_norm": null,
+  "base_unchanged": true,
+  "curves": [
+    {
+      "dev_CE": 3.9846909046173096,
+      "dev_MAE": 4.213315902217742,
+      "model": "Pilot_QV_CE_s271828",
+      "step": 0,
+      "train_loss": null
+    },
+    {
+      "dev_CE": 3.974299192428589,
+      "dev_MAE": 4.2105255126953125,
+      "dev_windows": 124,
+      "grad_norm": 0.03281300887465477,
+      "model": "Pilot_QV_CE_s271828",
+      "step": 25,
+      "train_loss": 3.674425184726715
+    },
+    {
+      "dev_CE": 3.9426045417785645,
+      "dev_MAE": 4.26732906218498,
+      "dev_windows": 124,
+      "grad_norm": 0.06099676713347435,
+      "model": "Pilot_QV_CE_s271828",
+      "step": 50,
+      "train_loss": 3.7140395045280457
+    },
+    {
+      "dev_CE": 3.884221315383911,
+      "dev_MAE": 4.2233153312436995,
+      "dev_windows": 124,
+      "grad_norm": 0.1159338504076004,
+      "model": "Pilot_QV_CE_s271828",
+      "step": 75,
+      "train_loss": 3.9894068837165833
+    },
+    {
+      "dev_CE": 3.8410327434539795,
+      "dev_MAE": 3.89930031224301,
+      "dev_windows": 950,
+      "grad_norm": 0.0800628587603569,
+      "model": "Pilot_QV_CE_s271828",
+      "step": 100,
+      "train_loss": 3.692895531654358
+    }
+  ],
+  "fixed_final_step": 100,
+  "rows": [
+    {
+      "CE": 3.8410327434539795,
+      "CE_s1": 4.3552446365356445,
+      "CE_s2": 3.3268206119537354,
+      "MAE": 3.89930031224301,
+      "RMSE": 5.766090487666977,
+      "actual_nonzero": 3796,
+      "aux_gradient_norm": null,
+      "bias": -0.17526408948396383,
+      "direction_coverage_pct": 99.97368421052632,
+      "direction_pct": 50.131717597471024,
+      "evaluation_seconds_per_window": 0.006754700541052539,
+      "magnitude_MAE": 2.7393283884148847,
+      "model": "Pilot_QV_CE_s271828",
+      "seconds_this_call": 31.22680374799984,
+      "seed": 271828,
+      "steps": 100,
+      "timing_scope": "greedy + diagnostic CE, plus continuous head if aux",
+      "trainable_parameters": 147456,
+      "variant": "QV_CE",
+      "windows": 950
+    }
+  ]
+}

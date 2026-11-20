@@ -1,0 +1,74 @@
+{
+  "aux_gradient_norm": null,
+  "base_unchanged": true,
+  "curves": [
+    {
+      "dev_CE": 3.9846909046173096,
+      "dev_MAE": 4.213315902217742,
+      "model": "Pilot_FF_CE_s271828",
+      "step": 0,
+      "train_loss": null
+    },
+    {
+      "dev_CE": 3.973496913909912,
+      "dev_MAE": 4.211690595073085,
+      "dev_windows": 124,
+      "grad_norm": 0.045045655220746994,
+      "model": "Pilot_FF_CE_s271828",
+      "step": 25,
+      "train_loss": 3.684518814086914
+    },
+    {
+      "dev_CE": 3.9411580562591553,
+      "dev_MAE": 4.248224812169229,
+      "dev_windows": 124,
+      "grad_norm": 0.08109008520841599,
+      "model": "Pilot_FF_CE_s271828",
+      "step": 50,
+      "train_loss": 3.703705906867981
+    },
+    {
+      "dev_CE": 3.879462957382202,
+      "dev_MAE": 4.146948045299899,
+      "dev_windows": 124,
+      "grad_norm": 0.14197896420955658,
+      "model": "Pilot_FF_CE_s271828",
+      "step": 75,
+      "train_loss": 3.996235966682434
+    },
+    {
+      "dev_CE": 3.8353984355926514,
+      "dev_MAE": 3.903771458675987,
+      "dev_windows": 950,
+      "grad_norm": 0.10835350304841995,
+      "model": "Pilot_FF_CE_s271828",
+      "step": 100,
+      "train_loss": 3.698206841945648
+    }
+  ],
+  "fixed_final_step": 100,
+  "rows": [
+    {
+      "CE": 3.8353984355926514,
+      "CE_s1": 4.328838348388672,
+      "CE_s2": 3.3419582843780518,
+      "MAE": 3.903771458675987,
+      "RMSE": 5.748853092930841,
+      "actual_nonzero": 3796,
+      "aux_gradient_norm": null,
+      "bias": -0.17010485197368422,
+      "direction_coverage_pct": 99.97368421052632,
+      "direction_pct": 50.079030558482614,
+      "evaluation_seconds_per_window": 0.01069444630105265,
+      "magnitude_MAE": 2.773503996196546,
+      "model": "Pilot_FF_CE_s271828",
+      "seconds_this_call": 37.19187509099993,
+      "seed": 271828,
+      "steps": 100,
+      "timing_scope": "greedy + diagnostic CE, plus continuous head if aux",
+      "trainable_parameters": 147456,
+      "variant": "FF_CE",
+      "windows": 950
+    }
+  ]
+}

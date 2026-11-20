@@ -1,0 +1,34 @@
+{
+  "INFORME_RECONCILIACION_FASE_IV_Y_PROPUESTA_V_20261120.md": {
+    "sha256": "94b0228abc1277f72beb0345d410a610c1a27f7e8314c84e5d7e81b5db18d7a2",
+    "bytes": 16085
+  },
+  "PROTOCOLO_FASE_V_JOINT_PROPUESTO_20261120.json": {
+    "sha256": "c36d6a9e5524e1f19101d59e8e06221e7b01594d0f1dc9f9e7ad3bd95f58aac2",
+    "bytes": 8641
+  },
+  "audit_evidence.json": {
+    "sha256": "1bf587cfa47dfdeaccc2f201e78dda41136713a7fdee892f141255f6d6aadc1b",
+    "bytes": 36085
+  },
+  "hashes_verified.csv": {
+    "sha256": "11b8b0b034a1c2f33524024b8ee5d64dfa3547615d98db56e47872b473f577dd",
+    "bytes": 4487
+  },
+  "metrics_recomputed.csv": {
+    "sha256": "ba5dedbe0780dbf1c3e46e01e29feb680c79e4857bb53703d07621be1ae9d741",
+    "bytes": 684
+  },
+  "COMPARACION_RECONCILIADA_20261120.csv": {
+    "sha256": "f6f10a59899dfee1cc9f0f1441c50bfee0a4ac11d676fc6ca9d1ad6821d81d40",
+    "bytes": 711
+  },
+  "drive_file_index.json": {
+    "sha256": "3db7dd992e74b464c5f4bafa440d98a19faafe847d47884250e9afb4976a8da2",
+    "bytes": 4880
+  },
+  "audit_verify.py": {
+    "sha256": "8dccbcd64f958b004dc535d5a3e7822043c22763b48ef5dd97bead4fd228e06d",
+    "bytes": 10012
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+  "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740",
+  "commit": "67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+  "revisions": {
+    "Kronos-small": "901c26c1332695a2a8f243eb2f37243a37bea320",
+    "Kronos-Tokenizer-base": "0e0117387f39004a9016484a186a908917e22426"
+  },
+  "checkpoint": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION05_LORA/20261112T130149Z_80e373/continuacion_20261113T203705Z_d2f8d8/checkpoints/seed_271828/step_1000.pt",
+  "checkpoint_sha256": "f9c5d50858f1aa472961176d39b8ace76c7008edede11b8194ede035b1d62568",
+  "lora_targets": [
+    "transformer.0.self_attn.q_proj",
+    "transformer.0.self_attn.v_proj",
+    "transformer.1.self_attn.q_proj",
+    "transformer.1.self_attn.v_proj",
+    "transformer.2.self_attn.q_proj",
+    "transformer.2.self_attn.v_proj",
+    "transformer.3.self_attn.q_proj",
+    "transformer.3.self_attn.v_proj",
+    "transformer.4.self_attn.q_proj",
+    "transformer.4.self_attn.v_proj",
+    "transformer.5.self_attn.q_proj",
+    "transformer.5.self_attn.v_proj",
+    "transformer.6.self_attn.q_proj",
+    "transformer.6.self_attn.v_proj",
+    "transformer.7.self_attn.q_proj",
+    "transformer.7.self_attn.v_proj",
+    "dep_layer.cross_attn.q_proj",
+    "dep_layer.cross_attn.v_proj"
+  ],
+  "trainable_parameters": 0,
+  "greedy_matches_M05_implementation": true,
+  "hidden_and_sampling_future_invariant": true
+}

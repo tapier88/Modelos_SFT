@@ -1,0 +1,21 @@
+{
+  "loaded_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "normalization_future_invariant": true,
+  "train_windows": 8428,
+  "development_windows": 950,
+  "development_ny_sessions": 243,
+  "causal_model_checks": "PENDING",
+  "predictive_experiments": "NOT_EXECUTED"
+}

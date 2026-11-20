@@ -1,0 +1,9 @@
+{
+  "candidate_outputs": 6,
+  "complete": true,
+  "orders_enabled": false,
+  "original_base_tokenizer_M05_unchanged": true,
+  "pilots": 5,
+  "steps_each": 100,
+  "test_read": false
+}

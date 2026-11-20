@@ -1,0 +1,10 @@
+{
+  "nonoverlap_selection": true,
+  "bootstrap_constant_difference": true,
+  "mae_exact": true,
+  "skill_exact": true,
+  "direction_exact": true,
+  "paired_bootstrap_exact": true,
+  "all_groups_exercised": true,
+  "single_day_interval_unavailable": true
+}

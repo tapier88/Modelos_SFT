@@ -1,0 +1,74 @@
+{
+  "aux_gradient_norm": null,
+  "base_unchanged": true,
+  "curves": [
+    {
+      "dev_CE": 3.9846909046173096,
+      "dev_MAE": 4.213315902217742,
+      "model": "Pilot_QV_FF_CE_s271828",
+      "step": 0,
+      "train_loss": null
+    },
+    {
+      "dev_CE": 3.974060297012329,
+      "dev_MAE": 4.211690595073085,
+      "dev_windows": 124,
+      "grad_norm": 0.04099591448903084,
+      "model": "Pilot_QV_FF_CE_s271828",
+      "step": 25,
+      "train_loss": 3.668463110923767
+    },
+    {
+      "dev_CE": 3.941816568374634,
+      "dev_MAE": 4.251100355579007,
+      "dev_windows": 124,
+      "grad_norm": 0.0712587758898735,
+      "model": "Pilot_QV_FF_CE_s271828",
+      "step": 50,
+      "train_loss": 3.6771795749664307
+    },
+    {
+      "dev_CE": 3.8798828125,
+      "dev_MAE": 4.167453888923891,
+      "dev_windows": 124,
+      "grad_norm": 0.138861745595932,
+      "model": "Pilot_QV_FF_CE_s271828",
+      "step": 75,
+      "train_loss": 4.0287811160087585
+    },
+    {
+      "dev_CE": 3.8316354751586914,
+      "dev_MAE": 3.9110718737150494,
+      "dev_windows": 950,
+      "grad_norm": 0.10314184427261353,
+      "model": "Pilot_QV_FF_CE_s271828",
+      "step": 100,
+      "train_loss": 3.656502425670624
+    }
+  ],
+  "fixed_final_step": 100,
+  "rows": [
+    {
+      "CE": 3.8316354751586914,
+      "CE_s1": 4.334000587463379,
+      "CE_s2": 3.329270124435425,
+      "MAE": 3.9110718737150494,
+      "RMSE": 5.772227124375083,
+      "actual_nonzero": 3796,
+      "aux_gradient_norm": null,
+      "bias": -0.17400470934416118,
+      "direction_coverage_pct": 99.97368421052632,
+      "direction_pct": 49.94731296101159,
+      "evaluation_seconds_per_window": 0.007760092265263043,
+      "magnitude_MAE": 2.7561415822882402,
+      "model": "Pilot_QV_FF_CE_s271828",
+      "seconds_this_call": 40.94665633599993,
+      "seed": 271828,
+      "steps": 100,
+      "timing_scope": "greedy + diagnostic CE, plus continuous head if aux",
+      "trainable_parameters": 147456,
+      "variant": "QV_FF_CE",
+      "windows": 950
+    }
+  ]
+}

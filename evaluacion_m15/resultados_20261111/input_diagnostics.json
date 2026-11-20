@@ -1,0 +1,41 @@
+[
+  {
+    "year": 2020,
+    "bars": 23639,
+    "ny_days_with_bars": 259,
+    "ny_days_with_selected_windows": 241,
+    "selected_windows": 1635,
+    "selected_ny_windows": 698,
+    "volume_zero_pct": 0.0,
+    "volume_median": 0.61646,
+    "volume_p99": 2.826324399999999,
+    "close_min": 1453.745,
+    "close_max": 2070.128
+  },
+  {
+    "year": 2021,
+    "bars": 23594,
+    "ny_days_with_bars": 258,
+    "ny_days_with_selected_windows": 254,
+    "selected_windows": 1716,
+    "selected_ny_windows": 738,
+    "volume_zero_pct": 0.0,
+    "volume_median": 0.45603,
+    "volume_p99": 2.23373443,
+    "close_min": 1678.218,
+    "close_max": 1957.685
+  },
+  {
+    "year": 2022,
+    "bars": 23585,
+    "ny_days_with_bars": 258,
+    "ny_days_with_selected_windows": 256,
+    "selected_windows": 1714,
+    "selected_ny_windows": 743,
+    "volume_zero_pct": 0.0,
+    "volume_median": 0.45407000000000003,
+    "volume_p99": 2.0413692,
+    "close_min": 1616.572,
+    "close_max": 2069.358
+  }
+]

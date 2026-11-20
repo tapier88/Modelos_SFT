@@ -1,0 +1,74 @@
+{
+  "aux_gradient_norm": null,
+  "base_unchanged": true,
+  "curves": [
+    {
+      "dev_CE": 3.9846909046173096,
+      "dev_MAE": 4.213315902217742,
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "step": 0,
+      "train_loss": null
+    },
+    {
+      "dev_CE": 3.9742963314056396,
+      "dev_MAE": 4.2105255126953125,
+      "dev_windows": 124,
+      "grad_norm": 0.03718496114015579,
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "step": 25,
+      "train_loss": 3.48591810464859
+    },
+    {
+      "dev_CE": 3.942671775817871,
+      "dev_MAE": 4.26732906218498,
+      "dev_windows": 124,
+      "grad_norm": 0.06860315054655075,
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "step": 50,
+      "train_loss": 3.55715012550354
+    },
+    {
+      "dev_CE": 3.884431838989258,
+      "dev_MAE": 4.2224273681640625,
+      "dev_windows": 124,
+      "grad_norm": 0.1354464590549469,
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "step": 75,
+      "train_loss": 3.8126214742660522
+    },
+    {
+      "dev_CE": 3.8422112464904785,
+      "dev_MAE": 3.8995244076377467,
+      "dev_windows": 950,
+      "grad_norm": 0.08675461262464523,
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "step": 100,
+      "train_loss": 3.463509500026703
+    }
+  ],
+  "fixed_final_step": 100,
+  "rows": [
+    {
+      "CE": 3.8422112464904785,
+      "CE_s1": 4.357633590698242,
+      "CE_s2": 3.3267879486083984,
+      "MAE": 3.8995244076377467,
+      "RMSE": 5.7744124624922115,
+      "actual_nonzero": 3796,
+      "aux_gradient_norm": null,
+      "bias": -0.18010025827508225,
+      "direction_coverage_pct": 99.97368421052632,
+      "direction_pct": 50.0,
+      "evaluation_seconds_per_window": 0.006472837773684372,
+      "magnitude_MAE": 2.7411658036081414,
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "seconds_this_call": 36.56910737699991,
+      "seed": 271828,
+      "steps": 100,
+      "timing_scope": "greedy + diagnostic CE, plus continuous head if aux",
+      "trainable_parameters": 147456,
+      "variant": "QV_CE_s2x2",
+      "windows": 950
+    }
+  ]
+}

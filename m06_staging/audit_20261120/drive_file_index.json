@@ -1,0 +1,160 @@
+{
+  "phase_IV_folder_id": "1BejHUVVpZvjsrcUXy7zqJbYeaaQa-7yt",
+  "canonical_path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV",
+  "requested_path_not_found": "/content/drive/MyDrive/kronos_sft/fase_IV",
+  "files": [
+    {
+      "id": "1aZFipKL7VUljrRt_6qURJRzrHCMcnxeP",
+      "rel": "metricas/pilotos_resultados_2020.csv"
+    },
+    {
+      "id": "1wYHXbWq8-WvBZdnbOzx0zkzFhHYgMIKf",
+      "rel": "metricas/Pilot_QV_CE_aux_s271828_curves.csv"
+    },
+    {
+      "id": "19XDx0BZcV59Fybyp0MtdEw9pqvmIl3uW",
+      "rel": "metricas/pilotos_intervalos.csv"
+    },
+    {
+      "id": "1Y9uVz5__dvlwvdIsvk3p1WpxigHis3w0",
+      "rel": "metricas/Pilot_QV_CE_aux_s271828_continuous.parquet"
+    },
+    {
+      "id": "1H_4fl7IowVXE3OM5fNWXhhK-YJvgqWss",
+      "rel": "metricas/Pilot_QV_CE_aux_s271828.parquet"
+    },
+    {
+      "id": "1O2mX2Rcfh2XsoD4P1RQcZy8IwGsxYrq1",
+      "rel": "metricas/Pilot_QV_CE_s2x2_s271828_curves.csv"
+    },
+    {
+      "id": "1fT8vy8bVc2GgcHvbGULh44Fh-MSSvf6t",
+      "rel": "metricas/Pilot_QV_CE_s2x2_s271828.parquet"
+    },
+    {
+      "id": "1_iviQq8UcOXTjx8brwT9CWh6OkX2Ws_V",
+      "rel": "metricas/Pilot_QV_FF_CE_s271828_curves.csv"
+    },
+    {
+      "id": "13TpTdElh3j9pzxdFrYmNNy04o_VoUtQO",
+      "rel": "metricas/Pilot_QV_FF_CE_s271828.parquet"
+    },
+    {
+      "id": "199zhsdvudYX8COEET7frEpVfk_kOfkqq",
+      "rel": "metricas/Pilot_FF_CE_s271828_curves.csv"
+    },
+    {
+      "id": "1BfEBTAlUJZLrrpgVWFJz7EkL6f7PteUF",
+      "rel": "metricas/Pilot_FF_CE_s271828.parquet"
+    },
+    {
+      "id": "1y-Xny-PrGCx8XVp2cOER6hxaemn4F5Rv",
+      "rel": "metricas/Pilot_QV_CE_s271828_curves.csv"
+    },
+    {
+      "id": "1-0eB-F33jaNGzvUqeZMXjYKXUHMwCCHI",
+      "rel": "metricas/Pilot_QV_CE_s271828.parquet"
+    },
+    {
+      "id": "14A5ggt1IL9RrK8a4cogWf-LSE6F5Pdam",
+      "rel": "checkpoints/Pilot_QV_CE_aux_s271828/resume.pt"
+    },
+    {
+      "id": "1a3D26NBI2RkHE1i7DI-oxHIeQzuCYxJb",
+      "rel": "checkpoints/Pilot_QV_CE_aux_s271828/complete.json"
+    },
+    {
+      "id": "1mCRgv8uBJS4Yz7Nsw4SF0yrWSNgtwur3",
+      "rel": "checkpoints/Pilot_QV_CE_aux_s271828/adapter_final.pt"
+    },
+    {
+      "id": "1eDa0oKLiiVLFaKr_U3hTmTeYzQe9tGTu",
+      "rel": "checkpoints/Pilot_QV_CE_aux_s271828/evaluation.npz"
+    },
+    {
+      "id": "133mSaM_UhlJV3dm1N52ggl-5VLvIFMo4",
+      "rel": "checkpoints/Pilot_QV_CE_s2x2_s271828/resume.pt"
+    },
+    {
+      "id": "1BMyGrt5WTg8ohkT86MYcMd4_HI0WZtqr",
+      "rel": "checkpoints/Pilot_QV_CE_s2x2_s271828/complete.json"
+    },
+    {
+      "id": "1QZMMziETBvAKdMtvxmAvLVGhD0k10YeY",
+      "rel": "checkpoints/Pilot_QV_CE_s2x2_s271828/adapter_final.pt"
+    },
+    {
+      "id": "1__KO88q4Fx_poO04Jjy1tJuqhi3DjPqv",
+      "rel": "checkpoints/Pilot_QV_CE_s2x2_s271828/evaluation.npz"
+    },
+    {
+      "id": "101Dnh1MJVfsRU8ZOW5pNmAkGke9HKGVi",
+      "rel": "checkpoints/Pilot_QV_FF_CE_s271828/resume.pt"
+    },
+    {
+      "id": "1wDE0Rs7LiYOfTJUZ7VlkXn0bUBsMQ3qR",
+      "rel": "checkpoints/Pilot_QV_FF_CE_s271828/complete.json"
+    },
+    {
+      "id": "1DT_KtMuFORqZBSrOErhI0e6iyV2R3vzM",
+      "rel": "checkpoints/Pilot_QV_FF_CE_s271828/adapter_final.pt"
+    },
+    {
+      "id": "1XO1ke3SF8js4Li6KGvfZdOENMeXt9Y2x",
+      "rel": "checkpoints/Pilot_QV_FF_CE_s271828/evaluation.npz"
+    },
+    {
+      "id": "19b0OJd9uMp4QNzl8z2Yl-DiQLmBe6icb",
+      "rel": "checkpoints/Pilot_FF_CE_s271828/resume.pt"
+    },
+    {
+      "id": "1EiurfbErXTmozqHa_UrDaoBbbnBkghfO",
+      "rel": "checkpoints/Pilot_FF_CE_s271828/complete.json"
+    },
+    {
+      "id": "19hhBZtqi72WlhzA2WD9LwF6dMBz0lcjA",
+      "rel": "checkpoints/Pilot_FF_CE_s271828/adapter_final.pt"
+    },
+    {
+      "id": "18pcYqee-YAc-LeklREpjwHLUqgZ2czyT",
+      "rel": "checkpoints/Pilot_FF_CE_s271828/evaluation.npz"
+    },
+    {
+      "id": "1rhvxTvVb6iJsOKwZtU0gYZrCNfx9LyGU",
+      "rel": "checkpoints/Pilot_QV_CE_s271828/resume.pt"
+    },
+    {
+      "id": "1eWZCTRlmlkeiprrhbr0NVw1uW0SR3wSS",
+      "rel": "checkpoints/Pilot_QV_CE_s271828/complete.json"
+    },
+    {
+      "id": "1XqfKJSvJRel0EhQfXXsXEfxsM6RnXdWG",
+      "rel": "checkpoints/Pilot_QV_CE_s271828/adapter_final.pt"
+    },
+    {
+      "id": "15dTYtcy4lPOWS14pcq0URKm-kiA_E2Lb",
+      "rel": "checkpoints/Pilot_QV_CE_s271828/evaluation.npz"
+    },
+    {
+      "id": "1v-LHonIrxhjRb7oPqpxSr5Uj6UYOrj2S",
+      "rel": "configuraciones/candidatos.json"
+    },
+    {
+      "id": "1T29jS7UxBfBZ3QSAoLPqtISF07egtbqi",
+      "rel": "configuraciones/protocolo_previo.json"
+    },
+    {
+      "id": "1grPHe7yjJUceMZBs-zYNXhlkSSuAjewm",
+      "rel": "graficas/07_pilotos_LoRA.png"
+    },
+    {
+      "id": "1y57lp-n_03flBEfjoqIznKoQuAH-uKQj",
+      "rel": "phase_status.json"
+    },
+    {
+      "id": "1qvcIt5hGDF8qHCYQtkQxuKz4BOMev4vV",
+      "rel": "checksums.json"
+    }
+  ],
+  "notebook_id": "1W7zo2Q-gXoyiVu2nZNnOMJ5RXG8Hymss"
+}

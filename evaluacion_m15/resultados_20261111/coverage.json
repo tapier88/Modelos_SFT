@@ -1,0 +1,20 @@
+{
+  "rows": 70818,
+  "candidate_windows": 18168,
+  "candidate_ny_windows": 6565,
+  "selected_windows": 5065,
+  "selected_ny_windows": 2179,
+  "eligible_days_ny": 756,
+  "selected_days_ny": 756,
+  "available_bar_days_ny": 932,
+  "candidate_by_year": {
+    "2020": 5857,
+    "2021": 6144,
+    "2022": 6167
+  },
+  "selected_by_year": {
+    "2020": 1635,
+    "2021": 1716,
+    "2022": 1714
+  }
+}
