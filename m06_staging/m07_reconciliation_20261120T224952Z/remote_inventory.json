@@ -1,0 +1,212 @@
+{
+  "RESEARCH_ONLY": true,
+  "deduplication_complete": false,
+  "metadata_candidates": [
+    {
+      "bytes": 2123,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/configuraciones/protocolo_experimentos.json"
+    },
+    {
+      "bytes": 8641,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/informes/PROTOCOLO_FASE_V_JOINT_PROPUESTO_20261120.json"
+    },
+    {
+      "bytes": 612,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_III/phase_status.json"
+    },
+    {
+      "bytes": 182,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/phase_status.json"
+    },
+    {
+      "bytes": 6609,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/configuraciones/protocolo_previo.json"
+    },
+    {
+      "bytes": 2026,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/checkpoints/Pilot_QV_CE_s271828/complete.json"
+    },
+    {
+      "bytes": 2025,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/checkpoints/Pilot_FF_CE_s271828/complete.json"
+    },
+    {
+      "bytes": 2040,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/checkpoints/Pilot_QV_FF_CE_s271828/complete.json"
+    },
+    {
+      "bytes": 2049,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/checkpoints/Pilot_QV_CE_s2x2_s271828/complete.json"
+    },
+    {
+      "bytes": 2939,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/checkpoints/Pilot_QV_CE_aux_s271828/complete.json"
+    },
+    {
+      "bytes": 32816,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/auditoria/estabilizacion_v2/artifact_manifest_before_recovery.json"
+    },
+    {
+      "bytes": 3533,
+      "path": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/auditoria/estabilizacion_v2/environment_status.json"
+    }
+  ],
+  "orders_enabled": false,
+  "test_read": false,
+  "timestamp": "2026-11-20T22:51:12.108365+00:00",
+  "verified": {
+    "fase_III": {
+      "count": 70,
+      "files": [
+        "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271828_best.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271828_resume.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271829_best.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271829_resume.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271830_best.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271830_resume.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271828_best.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271828_resume.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271828_uncertainty.npz",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271829_best.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271829_resume.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271829_uncertainty.npz",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271830_best.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271830_resume.pt",
+        "checkpoints/fase_III/7587400db64558e6/Head_Laplace_NLL_s271830_uncertainty.npz",
+        "checkpoints/fase_III/7587400db64558e6/Ridge_Kronos_congelado.npz",
+        "checkpoints/fase_III/7587400db64558e6/Ridge_contexto.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_development_2020_00000.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_development_2020_00256.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_development_2020_00512.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_development_2020_00768.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_00000.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_00256.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_00512.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_00768.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_01024.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_01280.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_01536.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_01792.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_02048.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_02304.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_02560.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_02816.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_03072.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_03328.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_03584.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_03840.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_04096.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_04352.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_04608.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_04864.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_05120.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_05376.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_05632.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_05888.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_06144.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_06400.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_06656.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_06912.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_07168.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_07424.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_07680.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_07936.npz",
+        "checkpoints/fase_III/7587400db64558e6/features_train_2010_2019_08192.npz",
+        "checkpoints/fase_III/7587400db64558e6/train_only_scalers.npz",
+        "configuraciones/cabezas_continuas.json",
+        "configuraciones/candidatos.json",
+        "graficas/06_cabezas_entrenamiento_validacion.png",
+        "metricas/Head_Huber_s271828.parquet",
+        "metricas/Head_Huber_s271829.parquet",
+        "metricas/Head_Huber_s271830.parquet",
+        "metricas/Head_Laplace_NLL_s271828.parquet",
+        "metricas/Head_Laplace_NLL_s271829.parquet",
+        "metricas/Head_Laplace_NLL_s271830.parquet",
+        "metricas/Ridge_Kronos_congelado.parquet",
+        "metricas/Ridge_contexto.parquet",
+        "metricas/cabezas_curvas.csv",
+        "metricas/cabezas_intervalos.csv",
+        "metricas/cabezas_resultados_2020.csv",
+        "phase_status.json"
+      ],
+      "manifest_sha256": "731d1c5412d4836e16961ff2e3747e6fd4da124db81eaf20265a638b6c90d7a1",
+      "status": {
+        "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+        "complete": true,
+        "dev_windows": 950,
+        "frozen_adapters": true,
+        "frozen_transformer": true,
+        "models": [
+          "Ridge_contexto",
+          "Ridge_Kronos_congelado",
+          "Head_Huber_s271828",
+          "Head_Huber_s271829",
+          "Head_Huber_s271830",
+          "Head_Laplace_NLL_s271828",
+          "Head_Laplace_NLL_s271829",
+          "Head_Laplace_NLL_s271830"
+        ],
+        "phase": "III",
+        "seeds": [
+          271828,
+          271829,
+          271830
+        ],
+        "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740",
+        "train_windows": 8428
+      }
+    },
+    "fase_IV": {
+      "count": 37,
+      "files": [
+        "checkpoints/Pilot_FF_CE_s271828/adapter_final.pt",
+        "checkpoints/Pilot_FF_CE_s271828/complete.json",
+        "checkpoints/Pilot_FF_CE_s271828/evaluation.npz",
+        "checkpoints/Pilot_FF_CE_s271828/resume.pt",
+        "checkpoints/Pilot_QV_CE_aux_s271828/adapter_final.pt",
+        "checkpoints/Pilot_QV_CE_aux_s271828/complete.json",
+        "checkpoints/Pilot_QV_CE_aux_s271828/evaluation.npz",
+        "checkpoints/Pilot_QV_CE_aux_s271828/resume.pt",
+        "checkpoints/Pilot_QV_CE_s271828/adapter_final.pt",
+        "checkpoints/Pilot_QV_CE_s271828/complete.json",
+        "checkpoints/Pilot_QV_CE_s271828/evaluation.npz",
+        "checkpoints/Pilot_QV_CE_s271828/resume.pt",
+        "checkpoints/Pilot_QV_CE_s2x2_s271828/adapter_final.pt",
+        "checkpoints/Pilot_QV_CE_s2x2_s271828/complete.json",
+        "checkpoints/Pilot_QV_CE_s2x2_s271828/evaluation.npz",
+        "checkpoints/Pilot_QV_CE_s2x2_s271828/resume.pt",
+        "checkpoints/Pilot_QV_FF_CE_s271828/adapter_final.pt",
+        "checkpoints/Pilot_QV_FF_CE_s271828/complete.json",
+        "checkpoints/Pilot_QV_FF_CE_s271828/evaluation.npz",
+        "checkpoints/Pilot_QV_FF_CE_s271828/resume.pt",
+        "configuraciones/candidatos.json",
+        "configuraciones/protocolo_previo.json",
+        "graficas/07_pilotos_LoRA.png",
+        "metricas/Pilot_FF_CE_s271828.parquet",
+        "metricas/Pilot_FF_CE_s271828_curves.csv",
+        "metricas/Pilot_QV_CE_aux_s271828.parquet",
+        "metricas/Pilot_QV_CE_aux_s271828_continuous.parquet",
+        "metricas/Pilot_QV_CE_aux_s271828_curves.csv",
+        "metricas/Pilot_QV_CE_s271828.parquet",
+        "metricas/Pilot_QV_CE_s271828_curves.csv",
+        "metricas/Pilot_QV_CE_s2x2_s271828.parquet",
+        "metricas/Pilot_QV_CE_s2x2_s271828_curves.csv",
+        "metricas/Pilot_QV_FF_CE_s271828.parquet",
+        "metricas/Pilot_QV_FF_CE_s271828_curves.csv",
+        "metricas/pilotos_intervalos.csv",
+        "metricas/pilotos_resultados_2020.csv",
+        "phase_status.json"
+      ],
+      "manifest_sha256": "e9e0e3754deaafb0153d11dfce2bf0abd024669d2a253f2f7768c8a6bfa7effc",
+      "status": {
+        "candidate_outputs": 6,
+        "complete": true,
+        "orders_enabled": false,
+        "original_base_tokenizer_M05_unchanged": true,
+        "pilots": 5,
+        "steps_each": 100,
+        "test_read": false
+      }
+    }
+  }
+}

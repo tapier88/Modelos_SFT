@@ -1,0 +1,115 @@
+{
+  "RESEARCH_ONLY": true,
+  "orders_enabled": false,
+  "test_read": false,
+  "phase_V_started": false,
+  "status": "recovered_pending_data_and_step0",
+  "output": "/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/m07_recovery/20261120T225342149867Z",
+  "models_restored": {
+    "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+    "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740",
+    "revisions": {
+      "Kronos-small": "901c26c1332695a2a8f243eb2f37243a37bea320",
+      "Kronos-Tokenizer-base": "0e0117387f39004a9016484a186a908917e22426"
+    },
+    "torch": "2.14.1+cu130",
+    "numpy": "2.4.6",
+    "device": "cuda",
+    "gpu": "Tesla T4"
+  },
+  "heads_restored": [
+    {
+      "seed": 271828,
+      "best_step": 250,
+      "resume_step": 300,
+      "strict_restore_twice": true,
+      "resume_keys": [
+        "best_MAE",
+        "best_state",
+        "best_step",
+        "curves",
+        "feature_id",
+        "head",
+        "numpy_rng",
+        "optimizer",
+        "step"
+      ]
+    },
+    {
+      "seed": 271829,
+      "best_step": 200,
+      "resume_step": 300,
+      "strict_restore_twice": true,
+      "resume_keys": [
+        "best_MAE",
+        "best_state",
+        "best_step",
+        "curves",
+        "feature_id",
+        "head",
+        "numpy_rng",
+        "optimizer",
+        "step"
+      ]
+    },
+    {
+      "seed": 271830,
+      "best_step": 150,
+      "resume_step": 300,
+      "strict_restore_twice": true,
+      "resume_keys": [
+        "best_MAE",
+        "best_state",
+        "best_step",
+        "curves",
+        "feature_id",
+        "head",
+        "numpy_rng",
+        "optimizer",
+        "step"
+      ]
+    }
+  ],
+  "phase_IV_restored": [
+    {
+      "variant": "QV_CE",
+      "step": 100,
+      "strict_restore": true,
+      "optimizer_state_loaded": true,
+      "numpy_torch_rng_restored_in_isolation": true,
+      "cuda_rng_present": true
+    },
+    {
+      "variant": "FF_CE",
+      "step": 100,
+      "strict_restore": true,
+      "optimizer_state_loaded": true,
+      "numpy_torch_rng_restored_in_isolation": true,
+      "cuda_rng_present": true
+    },
+    {
+      "variant": "QV_FF_CE",
+      "step": 100,
+      "strict_restore": true,
+      "optimizer_state_loaded": true,
+      "numpy_torch_rng_restored_in_isolation": true,
+      "cuda_rng_present": true
+    },
+    {
+      "variant": "QV_CE_s2x2",
+      "step": 100,
+      "strict_restore": true,
+      "optimizer_state_loaded": true,
+      "numpy_torch_rng_restored_in_isolation": true,
+      "cuda_rng_present": true
+    },
+    {
+      "variant": "QV_CE_aux",
+      "step": 100,
+      "strict_restore": true,
+      "optimizer_state_loaded": true,
+      "numpy_torch_rng_restored_in_isolation": true,
+      "cuda_rng_present": true
+    }
+  ]
+}

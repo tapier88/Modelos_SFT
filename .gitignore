@@ -3,3 +3,21 @@
 *.zip
 *.b64
 private_transfer/
+# Local UI snapshots may contain notebook contents and runtime diagnostics.
+output/
+# Local credentials and data/checkpoint bundles.
+.env
+.env.*
+!.env.example
+*.pt
+*.pth
+*.safetensors
+*.parquet
+*.feather
+*.arrow
+*.csv
+*.jsonl
+*.log
+credentials.json
+token.json
+*-secrets*

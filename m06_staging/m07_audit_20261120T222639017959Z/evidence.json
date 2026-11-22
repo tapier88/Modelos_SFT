@@ -1,0 +1,1496 @@
+{
+  "phase_IV_files_verified": 37,
+  "phase_IV_manifest_sha256": "e9e0e3754deaafb0153d11dfce2bf0abd024669d2a253f2f7768c8a6bfa7effc",
+  "phase_status": {
+    "candidate_outputs": 6,
+    "complete": true,
+    "orders_enabled": false,
+    "original_base_tokenizer_M05_unchanged": true,
+    "pilots": 5,
+    "steps_each": 100,
+    "test_read": false
+  },
+  "adapters": [
+    {
+      "model": "Pilot_QV_CE_s271828",
+      "sha256": "8bcfcd5fafbf84650293ac45b215d67fe1f488483e13382309a65b3073c7e74b",
+      "size": 602295,
+      "tensor_count": 36,
+      "parameters": 147456,
+      "architecture_compatible": true,
+      "resume_identical": true,
+      "step": 100,
+      "seed": 271828,
+      "shapes": {
+        "dep_layer.cross_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "dep_layer.cross_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "dep_layer.cross_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "dep_layer.cross_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.0.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.0.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.0.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.0.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.1.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.1.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.1.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.1.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.2.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.2.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.2.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.2.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.3.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.3.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.3.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.3.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.4.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.4.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.4.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.4.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.5.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.5.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.5.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.5.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.6.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.6.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.6.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.6.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.7.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.7.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.7.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.7.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ]
+      },
+      "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+      "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740"
+    },
+    {
+      "model": "Pilot_FF_CE_s271828",
+      "sha256": "7ba538edb54b4b6f2aefeed63519ff59ced4addd98c618567ffaf6f4331585d5",
+      "size": 605587,
+      "tensor_count": 48,
+      "parameters": 147456,
+      "architecture_compatible": true,
+      "resume_identical": true,
+      "step": 100,
+      "seed": 271828,
+      "shapes": {
+        "transformer.0.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.0.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.0.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.0.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.0.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.0.ffn.w3.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.1.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.1.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.1.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.1.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.1.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.1.ffn.w3.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.2.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.2.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.2.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.2.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.2.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.2.ffn.w3.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.3.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.3.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.3.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.3.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.3.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.3.ffn.w3.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.4.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.4.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.4.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.4.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.4.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.4.ffn.w3.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.5.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.5.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.5.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.5.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.5.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.5.ffn.w3.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.6.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.6.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.6.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.6.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.6.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.6.ffn.w3.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.7.ffn.w1.lora_A": [
+          4,
+          512
+        ],
+        "transformer.7.ffn.w1.lora_B": [
+          1024,
+          4
+        ],
+        "transformer.7.ffn.w2.lora_A": [
+          4,
+          1024
+        ],
+        "transformer.7.ffn.w2.lora_B": [
+          512,
+          4
+        ],
+        "transformer.7.ffn.w3.lora_A": [
+          4,
+          512
+        ],
+        "transformer.7.ffn.w3.lora_B": [
+          1024,
+          4
+        ]
+      },
+      "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+      "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740"
+    },
+    {
+      "model": "Pilot_QV_FF_CE_s271828",
+      "sha256": "d9fda1a81aebdedd7680f187168b76314f95031cd4e8eab05c1b950b742e8d04",
+      "size": 617639,
+      "tensor_count": 84,
+      "parameters": 147456,
+      "architecture_compatible": true,
+      "resume_identical": true,
+      "step": 100,
+      "seed": 271828,
+      "shapes": {
+        "dep_layer.cross_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "dep_layer.cross_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "dep_layer.cross_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "dep_layer.cross_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.0.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.0.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.0.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.0.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.0.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.0.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.0.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.0.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.0.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.0.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.1.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.1.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.1.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.1.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.1.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.1.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.1.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.1.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.1.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.1.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.2.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.2.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.2.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.2.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.2.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.2.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.2.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.2.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.2.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.2.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.3.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.3.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.3.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.3.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.3.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.3.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.3.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.3.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.3.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.3.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.4.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.4.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.4.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.4.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.4.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.4.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.4.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.4.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.4.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.4.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.5.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.5.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.5.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.5.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.5.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.5.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.5.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.5.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.5.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.5.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.6.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.6.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.6.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.6.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.6.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.6.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.6.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.6.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.6.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.6.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.7.ffn.w1.lora_A": [
+          2,
+          512
+        ],
+        "transformer.7.ffn.w1.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.7.ffn.w2.lora_A": [
+          2,
+          1024
+        ],
+        "transformer.7.ffn.w2.lora_B": [
+          512,
+          2
+        ],
+        "transformer.7.ffn.w3.lora_A": [
+          2,
+          512
+        ],
+        "transformer.7.ffn.w3.lora_B": [
+          1024,
+          2
+        ],
+        "transformer.7.self_attn.q_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.7.self_attn.q_proj.lora_B": [
+          512,
+          4
+        ],
+        "transformer.7.self_attn.v_proj.lora_A": [
+          4,
+          512
+        ],
+        "transformer.7.self_attn.v_proj.lora_B": [
+          512,
+          4
+        ]
+      },
+      "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+      "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740"
+    },
+    {
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "sha256": "8e85655e370f7790b53dd7812cc0cbffa7ec0312060cfed9b0191f495d0bf382",
+      "size": 602295,
+      "tensor_count": 36,
+      "parameters": 147456,
+      "architecture_compatible": true,
+      "resume_identical": true,
+      "step": 100,
+      "seed": 271828,
+      "shapes": {
+        "dep_layer.cross_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "dep_layer.cross_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "dep_layer.cross_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "dep_layer.cross_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.0.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.0.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.0.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.0.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.1.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.1.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.1.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.1.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.2.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.2.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.2.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.2.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.3.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.3.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.3.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.3.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.4.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.4.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.4.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.4.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.5.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.5.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.5.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.5.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.6.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.6.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.6.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.6.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.7.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.7.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.7.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.7.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ]
+      },
+      "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+      "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740"
+    },
+    {
+      "model": "Pilot_QV_CE_aux_s271828",
+      "sha256": "d6f1c4d620b203ae62ab6e58ef358016ea428b87d39c30b6c26444d6702cdff2",
+      "size": 602295,
+      "tensor_count": 36,
+      "parameters": 147456,
+      "architecture_compatible": true,
+      "resume_identical": true,
+      "step": 100,
+      "seed": 271828,
+      "shapes": {
+        "dep_layer.cross_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "dep_layer.cross_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "dep_layer.cross_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "dep_layer.cross_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.0.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.0.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.0.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.0.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.1.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.1.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.1.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.1.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.2.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.2.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.2.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.2.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.3.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.3.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.3.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.3.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.4.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.4.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.4.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.4.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.5.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.5.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.5.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.5.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.6.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.6.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.6.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.6.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.7.self_attn.q_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.7.self_attn.q_proj.lora_B": [
+          512,
+          8
+        ],
+        "transformer.7.self_attn.v_proj.lora_A": [
+          8,
+          512
+        ],
+        "transformer.7.self_attn.v_proj.lora_B": [
+          512,
+          8
+        ]
+      },
+      "base_hash": "a3c79ed2ca1f5b35c921fce7cf673db515dd7593e5552c643a977f8dc96ae6a9",
+      "tokenizer_hash": "e7885d9d7874cde53113b1cc43cbdf8f05941fb8d95bce0c38d03183665e4740"
+    }
+  ],
+  "metrics_recomputed": [
+    {
+      "model": "Pilot_QV_CE_s271828",
+      "MAE": 3.89930031224301,
+      "RMSE": 5.766090487666977,
+      "bias": -0.17526408948396383,
+      "direction_pct": 50.131717597471024,
+      "cache_parquet_identical": true
+    },
+    {
+      "model": "Pilot_FF_CE_s271828",
+      "MAE": 3.903771458675987,
+      "RMSE": 5.748853092930841,
+      "bias": -0.17010485197368422,
+      "direction_pct": 50.079030558482614,
+      "cache_parquet_identical": true
+    },
+    {
+      "model": "Pilot_QV_FF_CE_s271828",
+      "MAE": 3.9110718737150494,
+      "RMSE": 5.772227124375083,
+      "bias": -0.17400470934416118,
+      "direction_pct": 49.94731296101159,
+      "cache_parquet_identical": true
+    },
+    {
+      "model": "Pilot_QV_CE_s2x2_s271828",
+      "MAE": 3.8995244076377467,
+      "RMSE": 5.7744124624922115,
+      "bias": -0.18010025827508225,
+      "direction_pct": 50.0,
+      "cache_parquet_identical": true
+    },
+    {
+      "model": "Pilot_QV_CE_aux_s271828",
+      "MAE": 3.9053018349095394,
+      "RMSE": 5.775275451453223,
+      "bias": -0.1816598350123355,
+      "direction_pct": 49.973656480505795,
+      "cache_parquet_identical": true
+    },
+    {
+      "model": "Pilot_QV_CE_aux_s271828_continuous",
+      "MAE": 3.5588455345444423,
+      "RMSE": 5.39971339060415,
+      "bias": 0.03718746740582225,
+      "direction_pct": 52.212855637513165,
+      "cache_parquet_identical": true
+    }
+  ],
+  "paired_intervals_recomputed": 12,
+  "head_benchmarks": [
+    {
+      "model": "Head_Huber_s271828",
+      "best_step": 250,
+      "MAE": 3.5551758132034017,
+      "RMSE": 5.401538991749025,
+      "bias": 0.07127740927417377,
+      "direction_pct": 51.7913593256059,
+      "CI_vs_persistence": {
+        "delta_MAE": -0.004863474162963377,
+        "CI95_low": -0.026662909220500436,
+        "CI95_high": 0.016910954871336717
+      },
+      "checkpoint_sha256": "e2491f96d6a45db2cc8ea4dfed063c24044e56e3af0228065f5ecf51af81b254",
+      "parameters": 33092,
+      "architecture_compatible": true
+    },
+    {
+      "model": "Head_Huber_s271829",
+      "best_step": 200,
+      "MAE": 3.553271416298455,
+      "RMSE": 5.395149786183516,
+      "bias": 0.05961421346338003,
+      "direction_pct": 51.8177028451001,
+      "CI_vs_persistence": {
+        "delta_MAE": -0.006767871067910272,
+        "CI95_low": -0.020049684117899435,
+        "CI95_high": 0.007138917947883914
+      },
+      "checkpoint_sha256": "91648fafacf98c6f666e5692ab8b742a8f11da61b7321d3b2f3f6c4f9f2171aa",
+      "parameters": 33092,
+      "architecture_compatible": true
+    },
+    {
+      "model": "Head_Huber_s271830",
+      "best_step": 150,
+      "MAE": 3.552606560790413,
+      "RMSE": 5.401648117942178,
+      "bias": 0.18850937426412334,
+      "direction_pct": 50.711275026343515,
+      "CI_vs_persistence": {
+        "delta_MAE": -0.007432726575952026,
+        "CI95_low": -0.022115364972253828,
+        "CI95_high": 0.007602947476142993
+      },
+      "checkpoint_sha256": "8b20807ec220bbb888a0c63650f41c69a03f49278645f90e7052acf8ad18346e",
+      "parameters": 33092,
+      "architecture_compatible": true
+    }
+  ],
+  "phase_III_files_verified": [
+    "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271828_best.pt",
+    "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271829_best.pt",
+    "checkpoints/fase_III/7587400db64558e6/Head_Huber_s271830_best.pt",
+    "checkpoints/fase_III/7587400db64558e6/train_only_scalers.npz",
+    "metricas/cabezas_curvas.csv",
+    "metricas/cabezas_intervalos.csv",
+    "metricas/cabezas_resultados_2020.csv",
+    "metricas/Head_Huber_s271828.parquet",
+    "metricas/Head_Huber_s271829.parquet",
+    "metricas/Head_Huber_s271830.parquet",
+    "phase_status.json"
+  ],
+  "notebook_cells": 55,
+  "notebook_sha256": "0148815b8eadf87a5f9a5e41bff54cf5cfd6760c91a33efceafea02c078ddedb",
+  "phase_IV_cell_id": "qtn1qIqmtknc",
+  "phase_IV_output_matches": true,
+  "historical40": [
+    {
+      "cell": 0,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 1,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 2,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 3,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 4,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": false,
+      "metadata_equal": false,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 5,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 6,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 7,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 8,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 9,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 10,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 11,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 12,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 13,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 14,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 15,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 16,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 17,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 18,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 19,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 20,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 21,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 22,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 23,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 24,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 25,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 26,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 27,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 28,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 29,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 30,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 31,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 32,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 33,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 34,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 35,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 36,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 37,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 38,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    },
+    {
+      "cell": 39,
+      "id_equal": true,
+      "source_equal": true,
+      "outputs_equal": true,
+      "metadata_equal": true,
+      "execution_count_equal": true
+    }
+  ],
+  "runtime_live_verified": false,
+  "new_training_executed": false,
+  "reserved_data_read": false,
+  "orders_enabled": false,
+  "verification_script_sha256": "8dccbcd64f958b004dc535d5a3e7822043c22763b48ef5dd97bead4fd228e06d",
+  "observed_at_utc": "2026-11-20T22:26:54.385848+00:00"
+}

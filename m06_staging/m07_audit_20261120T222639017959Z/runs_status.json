@@ -1,0 +1,50 @@
+{
+  "protocol": "M06_FV_JOINT_RETURN_V1",
+  "protocol_sha256": "c36d6a9e5524e1f19101d59e8e06221e7b01594d0f1dc9f9e7ad3bd95f58aac2",
+  "training_authorized_by_preflight": false,
+  "remote_duplicate_search_complete": false,
+  "runs": [
+    {
+      "arm": "control_head_only",
+      "seed": 271828,
+      "status": "blocked_preflight",
+      "steps_executed_this_mission": 0,
+      "remote_previous_status": "unverified"
+    },
+    {
+      "arm": "control_head_only",
+      "seed": 271829,
+      "status": "blocked_preflight",
+      "steps_executed_this_mission": 0,
+      "remote_previous_status": "unverified"
+    },
+    {
+      "arm": "control_head_only",
+      "seed": 271830,
+      "status": "blocked_preflight",
+      "steps_executed_this_mission": 0,
+      "remote_previous_status": "unverified"
+    },
+    {
+      "arm": "joint_QV_head",
+      "seed": 271828,
+      "status": "blocked_preflight",
+      "steps_executed_this_mission": 0,
+      "remote_previous_status": "unverified"
+    },
+    {
+      "arm": "joint_QV_head",
+      "seed": 271829,
+      "status": "blocked_preflight",
+      "steps_executed_this_mission": 0,
+      "remote_previous_status": "unverified"
+    },
+    {
+      "arm": "joint_QV_head",
+      "seed": 271830,
+      "status": "blocked_preflight",
+      "steps_executed_this_mission": 0,
+      "remote_previous_status": "unverified"
+    }
+  ]
+}

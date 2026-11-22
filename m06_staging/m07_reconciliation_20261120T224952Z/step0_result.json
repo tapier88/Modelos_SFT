@@ -1,0 +1,83 @@
+{
+  "status": "passed_checks_executed_training_still_disabled",
+  "RESEARCH_ONLY": true,
+  "test_read": false,
+  "orders_enabled": false,
+  "training_steps": 0,
+  "tolerance": {
+    "price_max_abs": 0.001,
+    "price_mean_abs": 1e-05,
+    "rationale": "FP32 CPU/GPU roundoff; fixed before comparison. Absolute bound 0.001 price units plus mean bound 1e-5; no relative tolerance."
+  },
+  "data_checks": {
+    "loaded_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "normalization_future_invariant": true,
+    "train_windows": 8428,
+    "development_windows": 950,
+    "development_ny_sessions": 243,
+    "causal_model_checks": "PENDING",
+    "predictive_experiments": "NOT_EXECUTED"
+  },
+  "scalers_reproduced_train_only": true,
+  "causality": {
+    "loss_active_indices": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "normalization_future_invariant": true,
+    "tokenizer_future_and_prefix_invariant": true,
+    "predictor_causal_eval": [
+      0.0,
+      0.0
+    ],
+    "predictor_causal_train": [
+      0.0,
+      0.0
+    ],
+    "rollout_future_invariant": true,
+    "tokenizer_frozen": true
+  },
+  "step0": [
+    {
+      "seed": 271828,
+      "max_abs_price_diff": 9.920959200826474e-07,
+      "mean_abs_price_diff": 1.1910595078820495e-07,
+      "MAE": 3.5551758106125217
+    },
+    {
+      "seed": 271829,
+      "max_abs_price_diff": 6.373811629600823e-07,
+      "mean_abs_price_diff": 9.374889558737202e-08,
+      "MAE": 3.553271414308083
+    },
+    {
+      "seed": 271830,
+      "max_abs_price_diff": 8.588033324485878e-07,
+      "mean_abs_price_diff": 8.589901031691146e-08,
+      "MAE": 3.5526065590621596
+    }
+  ],
+  "future_invariance_hidden": true,
+  "joint_zero_and_gradients": {
+    "step0_identical": true,
+    "head_finite_nonzero": true,
+    "lora_B_finite_nonzero": true,
+    "base_gradients_absent": true,
+    "optimizer_steps": 0,
+    "lora_A_later_step_check": "pending; no optimization authorized"
+  }
+}

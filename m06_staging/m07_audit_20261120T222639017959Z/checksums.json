@@ -1,0 +1,28 @@
+{
+  "ESTADO_ANTERIOR.md": {
+    "sha256": "e226fa3c6e8e7a12e06b6d725c6229bc4a07d6f3df5250cd1053183c34f44849",
+    "bytes": 4301
+  },
+  "evidence.json": {
+    "sha256": "f3d451f96ac3819ecdf922155c646001c88105324e9a33fd8d3c5f622dfa2b21",
+    "bytes": 36244
+  },
+  "INFORME_MISION07.md": {
+    "sha256": "bf5d76d6081aacacb5abf60672ad41a917f4896c65a91b5e339b3a8e134b9aec",
+    "bytes": 6767
+  },
+  "runs_status.json": {
+    "sha256": "c37495b9a8ce3c0a8ad56aca43053e6519ed1f3f2ad5f06c420a4ee2f95bb680",
+    "bytes": 1420
+  },
+  "runtime_evidence.json": {
+    "sha256": "38e5e199981c9a7df638cf23a44ac03214a92789db10fffc7fcaf370826e0686",
+    "bytes": 574
+  },
+  "external_evidence": {
+    "m06_staging\\m07_runtime_20261120T223326852891Z\\notebook_before.ipynb": "1ee6a6a990bc4cc0bfb91be55dd3b74a638a25a76b22e293a27be231cc5f62b5",
+    "m06_staging\\audit_20261120\\PROTOCOLO_FASE_V_JOINT_PROPUESTO_20261120.json": "c36d6a9e5524e1f19101d59e8e06221e7b01594d0f1dc9f9e7ad3bd95f58aac2",
+    "AGENTS.md": "e712f99256db10c5925ef308259a237e6303e8d02ed60633e33bb0e5b96031ba",
+    "ESTADO_ACTUAL_KRONOS.md": "84901288044d5be6818d1a1576f358c1e9c42968624a1c1c48a76044035dc7b3"
+  }
+}

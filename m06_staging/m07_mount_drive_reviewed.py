@@ -1,0 +1,8 @@
+# M07_MOUNT_DRIVE_V1
+import os, json, subprocess
+from pathlib import Path
+from google.colab import drive
+print('M07_MOUNT_START', os.getpid(), flush=True)
+if not Path('/content/drive/MyDrive').is_dir():
+    drive.mount('/content/drive', force_remount=False)
+    print('M07_MOUNT_RESULT', json.dumps({'drive_available': Path('/content/drive/MyDrive').is_dir(), 'canonical_run_available': Path('/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571').is_dir(), 'gpu':subprocess.run(['nvidia-smi','--query-gpu=name,memory.total,memory.free','--format=csv,noheader'],capture_output=True,text=True).stdout, 'loaded_names': sorted(k for k in globals() if k.startswith(('M6_','m6_'))), 'RESEARCH_ONLY':True,'test_read':False,'orders_enabled':False}), flush=True)

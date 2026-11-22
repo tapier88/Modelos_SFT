@@ -1,0 +1,8 @@
+{
+  "status": "waiting_google_drive_authorization",
+  "mount_cell": "SOeTIq7YHoEB",
+  "training_started": false,
+  "test_read": false,
+  "orders_enabled": false,
+  "state_sha256": "ca04115d97d18b501580888bcb3282a44146825bdd74d7a1b8b04eb5fd7a7e40"
+}

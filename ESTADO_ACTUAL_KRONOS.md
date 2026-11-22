@@ -1,111 +1,56 @@
 # AXXEL CAPITAL — ESTADO ACTUAL KRONOS
 
-**Última auditoría verificada:** 20 de noviembre de 2026  
-**Proyecto:** AXXEL CAPITAL — Kronos SFT XAUUSD  
-**Modelo:** NeoQuasar/Kronos-small + Kronos-Tokenizer-base  
-**Estado operativo:** RESEARCH_ONLY — ORDERS DISABLED
+## Diagnóstico M11 — 22-11-2026 12:20 UTC
 
-## 1. Misión principal
+Auditoría local completada, sin entrenamiento, inferencia nueva ni acceso al test. Informe y propuesta pendiente de ejecución: `scripts/M11_DIAGNOSTICO_GENERALIZACION_20261122.md`. Evidencia con SHA-256 y respaldo íntegro del estado anterior: `output/axxel/m11_audit_20261122T122015431003Z/`.
 
-Entrenar y validar Kronos-small para predecir los próximos cuatro cierres M15 de XAUUSD, equivalentes a un horizonte de 60 minutos.
+Hashes de resultado/protocolo/fuentes/scalers y nueve archivos de reconciliación verificados; resultado idéntico a salida del notebook archivado; agregados de seis corridas y nueve contrastes reconciliados. No se revalidaron checkpoints remotos ni se recalcularon métricas desde predicciones individuales. Diferencia media control–cabeza original +0,017127025; Joint–control +0,000272717. Son diagnósticos descriptivos sobre desarrollo reutilizado; no prueban sobreajuste, equivalencia ni superioridad.
 
-Prioridad: mejorar la precisión predictiva frente a persistencia y benchmarks establecidos, sin data leakage.
+Lectura actual de interfaz 12:19:03 UTC: única pestaña maestra, runtime conectado, backend GPU. Drive, modelos en memoria, GPU exacta y procesos activos UNKNOWN; no se ejecutaron celdas. Registro: `output/axxel/20261122T1219024663942Z/`. Las verificaciones remotas anteriores siguen siendo HISTORICAL.
 
-El desarrollo de estrategias de trading es una etapa posterior.
+Próxima acción propuesta: `M11_ADAPTER_OFF_FIXED_HEAD_V1`, ablación de inferencia ON/OFF del adaptador con la misma cabeza Joint final, tres semillas y dev2020; verificar primero commits/hashes y equivalencia. Propuesta NO EJECUTADA. No repetir I–V ni entrenar automáticamente. RESEARCH_ONLY=true; orders_enabled=false; test_read=false.
 
-## 2. Estado científico
+---
+Estado de cierre M10 conservado a continuación; sus referencias a conexión «actual» corresponden a la fecha histórica indicada.
 
-| Fase | Estado |
-|---|---|
-| I — Diagnóstico y baselines | COMPLETADA |
-| II — Inferencia Monte Carlo | COMPLETADA |
-| III — Regresión Huber/Laplace | COMPLETADA |
-| IV — Pilotos LoRA | COMPLETADA Y AUDITADA |
-| V — LoRA + regresión conjunta | PROPUESTA, NO EJECUTADA |
-| Evaluación final 2023–2024 | TEST SELLADO |
+Actualizado: 22-11-2026 12:04 UTC / 07:04 Bogotá.
+RESEARCH_ONLY=true; orders_enabled=false; test_read=false.
 
-Los 37 artefactos del manifiesto de Fase IV fueron verificados mediante SHA-256.
+## Fase V completada — no repetir
 
-## 3. Resultados predictivos verificados
+M06_FV_JOINT_RETURN_V1: **6/6 corridas COMPLETED,300pasos cada una**. Resultado capturado02:03:30UTC y reconciliado12:04UTC contra la salida actual de la única celda de FaseV del notebook maestro. No se reenvió entrenamiento.
 
-Validación diagnóstica 2020: 950 ventanas, 3.800 predicciones y 243 sesiones NY.
+|Semilla|Control MAE|Joint MAE|
+|---|---:|---:|
+|271828|3,577933976|3,578414298|
+|271829|3,574401693|3,574432133|
+|271830|3,560099197|3,560406587|
 
-| Modelo | MAE |
-|---|---:|
-| Persistencia | 3.560039 |
-| Kronos base | 3.821930 |
-| Mejor cabeza Huber | 3.552607 |
-| LoRA QV + cabeza congelada | 3.558846 |
-| LoRA QV greedy | 3.899300 |
+Persistencia3,560039287; mejorHuberIII3,552606561. Media±SD: control3,570811622±0,009443849; joint3,571084339±0,009459133. Joint no mejoró el MAE frente a persistencia ni frente al control en ninguna semilla. Los9IC simultáneos incluyen0; followup_gate=false. Sin superioridad demostrada. Desarrollo2020 reutilizado; test2023–2024 sellado. Baseline greedy no verificado en esta evaluación.
 
-La mejor cabeza Huber obtuvo una mejora puntual aproximada del 0,21 % frente a persistencia.
+Próxima misión: diagnóstico científico usando checkpoints/predicciones existentes antes de proponer otra ablación; no extender pasos ni repetir estas corridas automáticamente. Informe: `scripts/M10_CIERRE_FASE_V.md`.
 
-Los intervalos de confianza incluyen cero. No existe todavía evidencia estadística suficiente de superioridad predictiva reproducible.
+## Evidencia y artefactos
 
-Los cinco pilotos de Fase IV ya se ejecutaron y no deben repetirse sin una justificación experimental.
+- Resultado: `output/axxel/m10_phase_v_20261122/bootstrap_phase_v/result.json`, SHA256 `e78f0bbbf46ab0693ced209b1b2642bd6b23960e922b0774463a83a000b89321`.
+- Reconciliación actual, notebook y seisPNG reales: `output/axxel/m10_reconciled_20261122T120350/`.
+- Estado anterior íntegro: misma carpeta/`ESTADO_ANTERIOR.md`.
+- Carpeta Drive reportada: `/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_V_joint_v1/f7efc796337d3684b0641688c1fa98eca67d0a01814d714ce99cce78a49f1213/`.
+- Evaluación: `evaluation/20261122T020302277505Z/`; manifiesto SHA256 `0f02af8aeefc2f794f5b39516835b471fec36484b1c920c300a12c2a285427f4`.
+- Checkpoints cada25pasos, estados de optimizador/RNG y manifests reportados por la ejecución. Verificar commits/hashes antes de restaurar; no se hizo una nueva relectura completa de Drive en esta reconciliación.
 
-## 4. Arquitectura de Fase V
+## Conexión actual e inicio diario
 
-**Protocolo:** M06_FV_JOINT_RETURN_V1
+CDP127.0.0.1:9222 responde y conecta con timeout60000ms. Notebook exacto identificado; ventana visible en estado normal; runtime conectado según interfaz. El bloqueo local `output/axxel_start.lock` no existe. El fallo histórico de conexión fue un timeout después de conectar el WebSocket, no falta de puerto expuesto. Colab no se reinició.
 
-- Brazo A: backbone Kronos congelado + cabeza Huber entrenable.
-- Brazo B: backbone congelado + LoRA Q/V rank 8 + cabeza Huber entrenable.
-- Semillas: 271828, 271829, 271830.
-- Presupuesto: seis corridas de 300 pasos.
-- Contexto: L=56.
-- Horizonte: H=4, temporalidad M15.
-- Entrenamiento: 2010–2019.
-- Desarrollo: 2020.
-- Test: 2023–2024, estrictamente reservado.
+`.\scripts\axxel.ps1 start` conecta/verifica/restaura; nunca entrena. `status` consulta interfaz; `recover/close` mantienen diagnóstico/respaldo. FaseV usa entrada explícita autorizada `automation/m10_execute_phase_v.py`; consultar transacciones y completados antes de usarla. No reenviar una entrega incierta. Un solo escritor del notebook.
 
-## 5. Infraestructura
+## Memoria científica preservada
 
-**Desarrollo local:** Visual Studio Code + Codex CLI en `modelo_SFT`.
+I–IV completadas; no repetir. Train2010–2019:8.428 ventanas;dev2020:950/243sesionesNY;L56,H4,M15. Evaluaciones08-11/11-11(L64,5.065ventanas2020–2022) no directamente comparables.
 
-**Automatización:** Python + Playwright + Chrome CDP 9222.
+M09 aprobó causalidad, normalización contextual/scalers train-only, alineación, paso cero desde precios(max9,9209592e-7), gradientes y reanudación sintética. Dos restauraciones aisladas aprobadas; deduplicación interna/externa documentada. Certificación: `scripts/M09_READY_FOR_PHASE_V.md`.
 
-**Entrenamiento:** Google Colab Pro + PyTorch + GPU, cuando esté disponible.
+Protocolo original: `m06_staging/audit_20261120/PROTOCOLO_FASE_V_JOINT_PROPUESTO_20261120.json`. Control33.092/joint164.164parámetros;QVrank8alpha16;micro16×acumulación4;AdamW weight_decay0;LRcabeza3e-4/LoRA1e-4;dev0/300. No modificar resultados históricos.
 
-**Notebook maestro:**
-https://colab.research.google.com/drive/1W7zo2Q-gXoyiVu2nZNnOMJ5RXG8Hymss
-
-**Artefactos auditados de Fase IV:**
-
-`/content/drive/MyDrive/AXXEL_CAPITAL/MISION06_ALINEACION/20261114T222455Z_32d5e571/fase_IV/`
-
-La conexión local de Playwright con el notebook se verificó desde Windows. La recuperación de modelos en el runtime activo y la GPU actual todavía requieren comprobación.
-
-## 6. Próxima tarea ejecutable
-
-**MISIÓN 07 — Recuperación y validación de Fase V**
-
-1. Verificar el runtime actual de Colab y su GPU.
-2. Recuperar los checkpoints auditados de Fases III–IV.
-3. Comprobar SHA-256 y compatibilidad de arquitectura.
-4. Reproducir predicciones del paso cero.
-5. Verificar causalidad, gradientes e inexistencia de leakage.
-6. Detectar entrenamientos equivalentes ya realizados.
-7. Ejecutar las seis corridas únicamente después de superar las verificaciones.
-8. Guardar resultados, curvas, checkpoints y métricas.
-
-## 7. Reglas permanentes
-
-- `RESEARCH_ONLY = true`
-- `orders_enabled = false`
-- `test_read = false`
-- No repetir Fases I–IV.
-- No sobrescribir checkpoints originales.
-- No declarar mejora predictiva sin evidencia.
-- Mantener un solo agente escritor sobre el notebook.
-- Actualizar este documento después de cada tarea significativa.
-
-## 8. Historial que debe conservarse
-
-La evaluación M15 local del 11 de noviembre sigue siendo evidencia histórica válida para su población y configuración originales.
-
-Sus 5.065 ventanas y métricas de 2020–2022 no son directamente comparables con las 950 ventanas diagnósticas de 2020 utilizadas en Misión 06.
-
-No mezclar resultados de distintas poblaciones o protocolos.
-
-**Último hito científico verificado:** Fase IV completada.  
-**Siguiente hito:** preejecución y entrenamiento controlado de Fase V.
+Pruebas de esta reconciliación: sintaxis Python y6tests de seguridad del transporte aprobados;29tests/parser aprobados antes del entrenamiento. Sin commit ni push.
